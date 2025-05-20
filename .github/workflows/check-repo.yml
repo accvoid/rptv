@@ -22,25 +22,19 @@ jobs:
           git config --global user.email "action@github.com"
           echo "Git setup complete"
 
-      - name: Sync each subfolder with its external repository
+      - name: Sync external repositories to subfolders
         run: |
-          # 定义子文件夹和对应的外部仓库
+          # 定义外部仓库和对应的子文件夹
           declare -A projects=(
-            ["alantang1977"]="https://github.com/alantang1977/X.git"
-
+            ["project1"]="https://github.com/user/project1.git"
+            ["project2"]="https://github.com/user/project2.git"
           )
 
           for folder in "${!projects[@]}"; do
             external_repo="${projects[$folder]}"
-            echo "Starting sync for folder: $folder with $external_repo"
+            echo "Starting sync for $external_repo to $folder"
 
-            # 检查子文件夹是否存在
-            if [ ! -d "$folder" ]; then
-              echo "Error: Folder $folder does not exist in collecting-repo"
-              continue
-            fi
-
-            # 克隆外部仓库到临时目录
+            # 克隆外部仓库到临时目录（公开仓库无需 PAT）
             temp_dir=$(mktemp -d)
             echo "Cloning $external_repo to $temp_dir"
             if ! git clone --depth 1 "$external_repo" "$temp_dir"; then
@@ -48,27 +42,31 @@ jobs:
               continue
             fi
 
+            # 确保子文件夹存在
+            mkdir -p "$folder"
+
             # 同步外部仓库到子文件夹
             echo "Syncing $external_repo to $folder"
-            cd -
-            rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/" || {
+            if ! rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/"; then
               echo "Error: rsync to $folder failed"
               continue
-            }
+            fi
+
+            # 检查是否有更改需要提交
             git add "$folder"
             if ! git diff --staged --quiet; then
-              echo "Changes detected, committing to repo"
-              git commit -m "Sync changes from $external_repo to $folder" || {
-                echo "Error: Git commit failed for $folder in collecting-repo"
+              echo "Changes detected, committing to collecting-repo"
+              if ! git commit -m "Sync changes from $external_repo to $folder"; then
+                echo "Error: Git commit failed for $folder"
                 continue
-              }
+              fi
               echo "Pushing to collecting-repo"
-              git push origin main || {
+              if ! git push origin main; then
                 echo "Error: Git push failed for collecting-repo"
                 continue
-              }
+              fi
             else
-              echo "No changes to commit for $folder in collecting-repo"
+              echo "No changes to commit for $folder"
             fi
 
             rm -rf "$temp_dir"
