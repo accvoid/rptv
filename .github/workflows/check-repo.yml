@@ -20,6 +20,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          echo "Git setup complete"
 
       - name: Sync each subfolder with its external repository
         run: |
@@ -31,35 +32,68 @@ jobs:
 
           for folder in "${!projects[@]}"; do
             external_repo="${projects[$folder]}"
-            echo "Syncing $folder with $external_repo"
+            echo "Starting sync for folder: $folder with $external_repo"
 
-            # 克隆外部仓库到临时目录（公开仓库无需 PAT）
+            # 检查子文件夹是否存在
+            if [ ! -d "$folder" ]; then
+              echo "Error: Folder $folder does not exist in collecting-repo"
+              continue
+            fi
+
+            # 克隆外部仓库到临时目录
             temp_dir=$(mktemp -d)
-            git clone --depth 1 "$external_repo" "$temp_dir"
+            echo "Cloning $external_repo to $temp_dir"
+            if ! git clone --depth 1 "$external_repo" "$temp_dir"; then
+              echo "Error: Failed to clone $external_repo"
+              continue
+            fi
 
             # 同步子文件夹到外部仓库
-            if [ -d "$folder" ]; then
-              rsync -av --delete --exclude '.git' "./$folder/" "$temp_dir/"
-              cd "$temp_dir"
-              git add .
-              if ! git diff --staged --quiet; then
-                git commit -m "Sync changes from collecting-repo/$folder"
-                git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com${external_repo#https://github.com}" main
-              else
-                echo "No changes to push for $folder"
+            echo "Syncing $folder to $external_repo"
+            rsync -av --delete --exclude '.git' "./$folder/" "$temp_dir/" || {
+              echo "Error: rsync to external repo failed for $folder"
+              continue
+            }
+            cd "$temp_dir"
+            git add .
+            if ! git diff --staged --quiet; then
+              echo "Changes detected, committing to $external_repo"
+              git commit -m "Sync changes from collecting-repo/$folder" || {
+                echo "Error: Git commit failed for $external_repo"
+                continue
+              }
+              echo "Pushing to $external_repo"
+              if ! git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com${external_repo#https://github.com}" main; then
+                echo "Error: Git push failed for $external_repo"
+                continue
               fi
+            else
+              echo "No changes to push for $folder"
             fi
 
             # 同步外部仓库到子文件夹
-            rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/"
+            echo "Syncing $external_repo to $folder"
             cd -
+            rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/" || {
+              echo "Error: rsync to $folder failed"
+              continue
+            }
             git add "$folder"
             if ! git diff --staged --quiet; then
-              git commit -m "Sync changes from $external_repo to $folder"
-              git push origin main
+              echo "Changes detected, committing to collecting-repo"
+              git commit -m "Sync changes from $external_repo to $folder" || {
+                echo "Error: Git commit failed for $folder in collecting-repo"
+                continue
+              }
+              echo "Pushing to collecting-repo"
+              git push origin main || {
+                echo "Error: Git push failed for collecting-repo"
+                continue
+              }
             else
-              echo "No changes to commit for $folder"
+              echo "No changes to commit for $folder in collecting-repo"
             fi
 
             rm -rf "$temp_dir"
+            echo "Completed sync for $folder"
           done
