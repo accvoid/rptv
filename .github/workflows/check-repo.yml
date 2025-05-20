@@ -55,7 +55,7 @@ jobs:
             git add "$folder"
             if ! git diff --staged --quiet; then
               echo "Changes detected, committing to collecting-repo"
-              if ! git commit -m "Sync changes to $folder"; then
+              if ! git commit -m "Sync $external_repo"; then
                 echo "Error: Git commit failed for $folder"
                 continue
               fi
