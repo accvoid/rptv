@@ -1,0 +1,128 @@
+name: Sync Subfolder Projects
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout collecting repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史以便合并
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Sync each subfolder with its external repository
+        run: |
+          # 定义子文件夹和对应的外部仓库
+          declare -A projects=(
+            ["alantang1977"]="https://github.com/alantang1977/X.git"
+          )
+
+          for folder in "${!projects[@]}"; do
+            external_repo="name: Sync Subfolder Projects
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout collecting repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史以便合并
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Sync each subfolder with its external repository
+        run: |
+          # 定义子文件夹和对应的外部仓库
+          declare -A projects=(
+            ["project1"]="https://github.com/user/project1.git"
+            ["project2"]="https://github.com/user/project2.git"
+          )
+
+          for folder in "${!projects[@]}"; do
+            external_repo="${projects[$folder]}"
+            echo "Syncing $folder with $external_repo"
+
+            # 克隆外部仓库到临时目录（公开仓库无需 PAT）
+            temp_dir=$(mktemp -d)
+            git clone --depth 1 "$external_repo" "$temp_dir"
+
+            # 同步子文件夹到外部仓库
+            if [ -d "$folder" ]; then
+              rsync -av --delete --exclude '.git' "./$folder/" "$temp_dir/"
+              cd "$temp_dir"
+              git add .
+              if ! git diff --staged --quiet; then
+                git commit -m "Sync changes from collecting-repo/$folder"
+                git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com${external_repo#https://github.com}" main
+              else
+                echo "No changes to push for $folder"
+              fi
+            fi
+
+            # 同步外部仓库到子文件夹
+            rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/"
+            cd -
+            git add "$folder"
+            if ! git diff --staged --quiet; then
+              git commit -m "Sync changes from $external_repo to $folder"
+              git push origin main
+            else
+              echo "No changes to commit for $folder"
+            fi
+
+            rm -rf "$temp_dir"
+          done
+            echo "Syncing $folder with $external_repo"
+
+            # 克隆外部仓库到临时目录
+            temp_dir=$(mktemp -d)
+            git clone --depth 1 "https://$GH_PAT@github.com${external_repo#https://github.com}" "$temp_dir"
+
+            # 同步子文件夹到外部仓库
+            if [ -d "$folder" ]; then
+              rsync -av --delete --exclude '.git' "./$folder/" "$temp_dir/"
+              cd "$temp_dir"
+              git add .
+              if ! git diff --staged --quiet; then
+                git commit -m "Sync changes from collecting-repo/$folder"
+                git push origin main
+              else
+                echo "No changes to push for $folder"
+              fi
+            fi
+
+            # 同步外部仓库到子文件夹
+            rsync -av --delete --exclude '.git' "$temp_dir/" "./$folder/"
+            cd -
+            git add "$folder"
+            if ! git diff --staged --quiet; then
+              git commit -m "Sync changes from $external_repo to $folder"
+              git push origin main
+            else
+              echo "No changes to commit for $folder"
+            fi
+
+            rm -rf "$temp_dir"
+          done
