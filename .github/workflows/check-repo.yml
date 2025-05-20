@@ -48,29 +48,6 @@ jobs:
               continue
             fi
 
-            # 同步子文件夹到外部仓库
-            echo "Syncing $folder to $external_repo"
-            rsync -av --delete --exclude '.git' "./$folder/" "$temp_dir/" || {
-              echo "Error: rsync to external repo failed for $folder"
-              continue
-            }
-            cd "$temp_dir"
-            git add .
-            if ! git diff --staged --quiet; then
-              echo "Changes detected, committing to $external_repo"
-              git commit -m "Sync changes from collecting-repo/$folder" || {
-                echo "Error: Git commit failed for $external_repo"
-                continue
-              }
-              echo "Pushing to $external_repo"
-              if ! git push "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com${external_repo#https://github.com}" main; then
-                echo "Error: Git push failed for $external_repo"
-                continue
-              fi
-            else
-              echo "No changes to push for $folder"
-            fi
-
             # 同步外部仓库到子文件夹
             echo "Syncing $external_repo to $folder"
             cd -
@@ -80,7 +57,7 @@ jobs:
             }
             git add "$folder"
             if ! git diff --staged --quiet; then
-              echo "Changes detected, committing to collecting-repo"
+              echo "Changes detected, committing to repo"
               git commit -m "Sync changes from $external_repo to $folder" || {
                 echo "Error: Git commit failed for $folder in collecting-repo"
                 continue
