@@ -28,6 +28,7 @@ jobs:
           declare -A projects=(
             ["alantang1977"]="https://github.com/alantang1977/X.git"
             ["hd9211"]="https://github.com/hd9211/Tvbox1.git"
+            ["tjyu010"]="https://github.com/tjyu010/tvbox.git"
           )
 
           for folder in "${!projects[@]}"; do
