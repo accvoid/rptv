@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Pictures/240.png" alt="logo"/>
+  <img src="./Pictures/333.png" alt="logo"/>
   <h1 align="center">影视点播直播源</h1>
 </div>
 
@@ -155,6 +155,7 @@ https://www.tutieshi.com/
 # Github国内代理：https://ghproxy.link  https://xiake.pro/
                  
 
+    https://ghfile.geekertao.top/https://github.com/
     https://cors.zme.ink/https://raw.githubusercontent.com/
     https://slink.ltd/https://raw.githubusercontent.com/
     https://gh.tryxd.cn/https://raw.githubusercontent.com/
