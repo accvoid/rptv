@@ -5,6 +5,7 @@ ip_version_priority = "ipv6"
 
 # 直播源URL列表
 source_urls = [
+    "https://yk95.yymmiptv.top",
     "https://cnb.cool/junchao.tang/llive/-/git/raw/main/中国IPTV",
     "https://www.iyouhun.com/tv/myIPTV/ipv6.m3u",
     "https://www.iyouhun.com/tv/myIPTV/ipv4.m3u",
@@ -129,3 +130,7 @@ epg_urls = [
     "https://epg.pw/xmltv/epg_HK.xml",
     "https://epg.pw/xmltv/epg_TW.xml"
 ]
+ip_version_priority = "ipv4"
+max_links_per_channel = 10
+speed_test_timeout = 3.0
+speed_test_concurrency = 20
