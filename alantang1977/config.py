@@ -5,6 +5,8 @@ ip_version_priority = "ipv4"
 
 # 直播源URL列表
 source_urls = [
+    "https://live.kakaxi-1.ink/ipv4.txt",
+    "https://live.kakaxi-1.ink/ipv4.1.txt",
     "https://git.acwing.com/cisenyuan/kdsb/-/raw/main/txt/tvzb.txt",
     "https://yk95.yymmiptv.top",
     "https://cnb.cool/junchao.tang/llive/-/git/raw/main/中国IPTV",
@@ -17,11 +19,9 @@ source_urls = [
     "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u",
     "https://live.izbds.com/tv/iptv4.txt",
     "http://47.120.41.246:8899/zb.txt",
-    "http://rihou.cc:555/gggg.nzk",
     "http://1.94.31.214/live/livelite.txt",
     "https://web.banye.tech:7777/tvbus/yogurtTv.txt",
     "https://cnb.cool/junchao.tang/llive/-/git/raw/main/go.txt",
-    "https://6296.kstore.vip/25.txt",
     "https://smart.pendy.dpdns.org/m3u/Smart.m3u",
     "https://cnb.cool/junchao.tang/llive/-/git/raw/main/咪咕直播",
     "http://zhibo.feylen.top/fltv/js/ku9live.php?tpye=fl.txt",
@@ -57,7 +57,7 @@ source_urls = [
     "https://gh.tryxd.cn/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/live.txt",
     "https://fm1077.serv00.net/SmartTV.m3u",
     "https://gh.tryxd.cn/https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8",
-    "https://tv.iill.top/m3u/Gather",
+    "https://cnb.cool/junchao.tang/llive/-/git/raw/main/Gather.m3u",
     "https://m3u.ibert.me/txt/o_cn.txt",
     "https://m3u.ibert.me/txt/j_iptv.txt",
     "https://gh.tryxd.cn/https://raw.githubusercontent.com/xzw832/cmys/main/S_CCTV.txt",
