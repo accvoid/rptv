@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Pictures/20250610.png" alt="logo"/>
+  <img src="./Pictures/tv_data.png" alt="logo"/>
   <h1 align="center">影视点播直播源</h1>
 </div>
 
@@ -36,7 +36,7 @@
 
 # 以上为互联网流传资源，不保证内容的真实性和可靠性。本页面只是收集自用请勿宣传。
 
-## OK版影视APP
+## OK版影视APP（标准版与Pro）
 UC盘：https://drive.uc.cn/s/01bc89c897034
 
 夸克：https://pan.quark.cn/s/6fead79bddaf
