@@ -15,6 +15,7 @@
 {"key": "边缘","name": "🍐┃边缘影视┃TV","type": 3,"api": "./py/边缘影视.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key":"原创","name":"🧧┃修罗┃影视","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白白","name":"🐟┃素白┃秒播","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
+{"key": "iKanbot","name": "🥽┃iKanbot┃秒播","type": 3,"api": "csp_Ikanbot","jar": "./jar/iKanbot.jar","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://v.aikanbot.com"},
 {"key":"Guazi","name":"🍉┃瓜子┃秒播","type":3,"api":"csp_Guazi","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext": "","jar":"./pg.jar;md5;7840d0b61f9641a47728e3a92020f35a"},
 //{"key":"Xiaomi","name":"🍚┃PG┃小米","type":3,"api":"csp_Wobg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.mucpan.cc/$$$noproxy$$$1$$$./lib/wogg.json$$$XIAOMI","jar":"./pg.jar;md5;7840d0b61f9641a47728e3a92020f35a"},
 {"key": "至臻","name": "💌┃️至臻┃影视","type": 3,"api": "csp_Wobg","quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60,"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN","jar":"./pg.jar;md5;7840d0b61f9641a47728e3a92020f35a"},	
@@ -38,7 +39,7 @@
 {"key":"Lkdy","name":"🏔️┃来看┃影视","type":3,"api":"csp_Lkdy","jar":"./jar/PandaQ.jpg"},
 {"key":"cspJ","name":"🌎┃饺子┃外剧","type":3,"api":"csp_Jiaozi","playerType":2,"jar":"./jar/PandaQ.jpg"},
 {"key":"Wwys","name":"🌾️┃农民┃影视","type":3,"api":"csp_Wwys","ext":"https://www.wwgz.cn","jar":"./jar/PandaQ.jpg"},
-{"key": "爱瓜TV","name": "🍉┃爱瓜┃TV","type": 4,"api": "http://zhangqun66.com/aigua.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"changeable": 1}, 
+{"key":"爱瓜","name":"🍉┃爱瓜┃影视","type": 4,"api": "http://zhangqun66.com/aigua.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"changeable": 1},
 	
 ##PY源系列
 {"key": "火车","name": "🚂┃火车太顺┃TV","type": 3,"api": "./py/火车太顺APP.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
