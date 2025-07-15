@@ -260,14 +260,18 @@
 {"name": "🦸┃tangTV直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/JunTV/refs/heads/main/output/result.m3u","playerType":1},
 {"name": "🎲┃xTV直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/live_ipv4.m3u","playerType":1},
 {"name": "🐬┃Nice直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/Nice/refs/heads/main/output/result.m3u","playerType":1},
+{"name": "🛹┃咪咕直播","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/咪咕直播","playerType":1},
 {"name": "🪓┃网络收集直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt","playerType":1},
 
 {"name": "💄┃全网通tv","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/全网通","playerType":1},
 {"name": "🏂┃TG收集tv","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/TG收集.m3u","playerType":1},
 {"name": "🍿┃Webview直播","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/webview.txt","playerType":1},
 {"name": "〽️┃欧歌电视秒播","type": 0,"url": "http://gg.7749.org/z/i/gdss.txt","playerType": 1,"logo": "https://live.fanmingming.com/tv/{name}.png"},
+{"name": "🎃┃Alan央视.卫视TV","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/adventure/refs/heads/main/itvlist.txt","playerType":1},
 {"name": "🥔┃shanxixr直播","type": 0,"url": "http://kds.shanxixr.com/migu01.txt","playerType":1},
-	
+{"name": "🎮┃IPTV_auto直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/IPTV/main/live_ipv4.m3u","playerType":1},	
+{"name": "🧩┃PG直播","type": 0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/pg/refs/heads/main/live.m3u","playerType": 1,"logo": "https://live.fanmingming.com/tv/{name}.png"},
+		
 {"name": "🥮┃aTV直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/aTV/refs/heads/master/output/result.m3u","playerType":1},
 {"name": "🛬┃iptv_api直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u","playerType":1},
 {"name": "🛺┃港台秒播頻道","type":0,"url":"http://is.is-great.org/ii/1749383140.txt","playerType":1},
@@ -279,8 +283,6 @@
 
 {"name": "🎞️┃live直播","type": 0,"url": "https://live.916919.xyz/live.txt","playerType":1},
 {"name": "📞┃vbskycn直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u","playerType":1},
-{"name": "🎃┃全国秒播TV","type":0,"url":"http://live.nctv.top/x.txt","playerType":1},
-{"name": "🛹┃咪咕直播","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/咪咕直播","playerType":1},
 {"name": "🏐┃my机车直播","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/机车","playerType":1},
 
 //{"name": "🌳┃XingHuo","url": "https://json.doube.eu.org/XingHuo.txt","header": {"Referer": "https://www.kds.tw/"}},
@@ -315,11 +317,10 @@
 {"name": "🌭️┃沐佬BeeSport","type": 3,"api": "https://json.doube.eu.org/python/live_beesport.py","ext": {},"header": {"Referer": "https://p.m82xg4z0cdbz7.com/"}},
 {"name": "🩰┃Meroser直播","type": 0,"url": "https://gitlab.com/Meroser/IPTV/-/raw/main/IPTV-demo.m3u","playerType":1},
 {"name": "🍾┃Kilvn直播","type":0,"url":"https://live.kilvn.com/iptv.m3u","playerType":1},
-{"name": "🎱┃pxiptv直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/pxiptv/live/main/iptv.m3u","playerType":1},	
-{"name": "🎮┃IPTV_auto直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/IPTV/main/live_ipv4.m3u","playerType":1},
+{"name": "🎱┃pxiptv直播","type": 0,"url": "https://gh.tryxd.cn/https://raw.githubusercontent.com/pxiptv/live/main/iptv.m3u","playerType":1},
+
 {"name": "📠┃LITV直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt","playerType":1},	
 {"name": "🌽️┃A自家源直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/Collect-IPTV/refs/heads/main/mylive.m3u","playerType":1},	
-{"name": "🧩┃PG直播","type": 0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/pg/refs/heads/main/live.m3u","playerType": 1,"logo": "https://live.fanmingming.com/tv/{name}.png"},
 {"name": "📹┃MytvSuper直播","type":0,"url":"https://cnb.cool/junchao.tang/live/-/git/raw/main/MytvSuper.m3u","playerType":1},
 {"name": "🤗┃江苏酒店源直播","type":0,"url":"https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/playlist/江苏电信.txt","playerType":1},
 {"name": "⛵┃ITV直播","url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/itv.txt","epg": "http://epg.51zmt.top:8000/e.xml","ua": "okhttp/3.15","catchup": {"type": "append","replace": "livemode=1,livemode=4","source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
