@@ -125,7 +125,9 @@
 {"name": "🧊┃冰茶揾定「直播清」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.2.231","playerType":1},	
 {"name": "🥓┃movie「直播1」","type": 0,"url": "https://gitee.com/dream-deve/migu_video/raw/main/interface.txt","playerType":1},
 {"name": "🌹┃movie「直播2」","type": 0,"url": "https://gitee.com/dream-deve/migu_video/raw/main/interface-aptv.txt","playerType":1},
-	
+{"name": "🀄️┃风云「直播1」","type":0,"url":"https://files.catbox.moe/dt9svf.txt","ua": "","timeout": 10,"playerType": 2},
+{"name": "🀄️┃风云「直播2」","type":0,"url":"http://iptv.4666888.xyz/FYTV.m3u","ua": "","timeout": 10,"playerType": 2},
+		
 {"name": "Ⓜ️┃靳学领「直播1」","type": 0,"url": "https://gitee.com/jin-xueling/lingl/raw/master/hu.txt","playerType":1},
 {"name": "Ⓜ️┃靳学领「直播2」","type": 0,"url": "https://gitee.com/jin-xueling/cinematography/raw/master/json.txt","playerType":1},
 {"name": "Ⓜ️┃靳学领「直播3」","type": 0,"url": "https://gitee.com/jin-xueling/cinematography/raw/master/lc2.txt","playerType":1},
@@ -153,7 +155,7 @@
 {"name": "🌺┃junchao直播","type": 0,"url": "https://cnb.cool/junchao.tang/live/-/git/raw/main/API","ua": "okHttp","timeout": 10,"playerType": 2},
 {"name": "🕯️️┃catvod直播1","url": "https://live.catvod.com/catvod_com.php","epg": "http://epg.51zmt.top:8000/e.xml","ua": "catvod.com","catchup": {"type": "append","replace": "livemode=1,livemode=4","source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
 {"name": "⛵┃catvod直播2","url": "https://live.catvod.com/tv.m3u","epg": "http://epg.51zmt.top:8000/e.xml","ua": "okhttp","catchup": {"type": "append","replace": "livemode=1,livemode=4","source": "&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
-{"name": "🐸┃catvod直播3","type": 0,"url": "https://iptv.catvod.com/tv.m3u","ua": "okHttp/Mod-1.1.0","timeout": 10,"playerType": 2},
+{"name": "🐸┃catvod直播3","type": 0,"url": "https://iptv.catvod.com/tv.m3u","ua": "okHttp/Mod-1.2.0","timeout": 10,"playerType": 2},
 {"name": "🎙️┃tvzb直播","type":0,"url":"https://php.946985.xyz/fengyunTV.txt","playerType":1},
 {"name": "🛷┃ottiptv「直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/judy-gotv/iptv/refs/heads/main/MytvSuper.m3u","playerType":1},
 {"name": "🎎┃Live「直播」","type": 0,"url": "http://txt.kesug.com/users/alantang.txt","ua": "okhttp/3.8.1","timeout": 10,"playerType": 2},
@@ -177,9 +179,8 @@
 {"name": "🍳┃中央卫视直播0","type":0,"url":"https://fy.188766.xyz/?url=http://mursor.ottiptv.cc","ua": "okHttp/Mod-1.1.0","timeout": 10,"playerType": 1},
 {"name": "🔢┃中央卫视直播1","type":0,"url":"https://php.946985.xyz/stv.m3u","playerType":1},
 {"name": "🐳┃中央卫视直播2","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/TV_video/refs/heads/main/interface.txt","playerType":1},
-{"name": "🀄️┃风云秒播頻道3","type":0,"url":"https://files.catbox.moe/dt9svf.txt","ua": "","timeout": 10,"playerType": 2},
-{"name": "🦑┃中央卫视直播4","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/TV_live/refs/heads/main/live.txt","playerType":1},
-{"name": "🌸┃中央卫视直播5","type":0,"url":"https://gitee.com/junchao321/migu_video/raw/main/interface.txt","playerType":1},
+{"name": "🦑┃中央卫视直播3","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/TV_live/refs/heads/main/live.txt","playerType":1},
+{"name": "🌸┃中央卫视直播4","type":0,"url":"https://gitee.com/junchao321/migu_video/raw/main/interface.txt","playerType":1},
 
 {"name": "🏐┃lxxcp直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/lxxcp/live/refs/heads/main/webview.txt","playerType":1},
 {"name": "🏄‍♂️┃Hotel「直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/Hotel_iptv/refs/heads/main/itvlist.txt","playerType":1},
@@ -319,6 +320,8 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
 
 
 
