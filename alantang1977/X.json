@@ -1,5 +1,5 @@
 {
-"spider":"https://oss4liview.moji.com/thd_file/2025/10/20/20ce6fb735259c33690da031a32d7676.jpg;md5;66d7804116d70c7c42ed47b2947f4b50",
+"spider":"https://oss4liview.moji.com/thd_file/2025/10/21/e5fdd9068e9274386cf988a0dca88a96.jpg;md5;b3444be3e63f44aa5aad588183473bab",
 "wallpaper":"https://imgs.catvod.com/","logo":"./Pictures/junmeng.gif",
 
 "sites":[
@@ -149,7 +149,7 @@
 {"name": "🧊┃冰茶揾定「直播象」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.110.1","playerType":1},
 {"name": "🧊┃冰茶揾定「直播清」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.2.1","playerType":1},
 {"name": "🧊┃冰茶揾定「直播秀」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.0.1","playerType":1},
-{"name": "🧊┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://fy.188766.xyz/?url=https%3A%2F%2Flive.tangshop.top%3A35455&mishitong=true&mima=mianfeidehaimaiqian&json=true","ua": "bingcha/1.1 (mianfeifenxiang) "},
+{"name": "🍺┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://fy.188766.xyz/?url=https%3A%2F%2Flive.tangshop.top%3A35455&mishitong=true&mima=mianfeidehaimaiqian&json=true","ua": "bingcha/1.1 (mianfeifenxiang) "},
 {"name": "🍍┃斯玛特全球直播","url":"https://d.kstore.dev/download/15114/HKoo.txt"},
 {"name": "🛺┃港台秒播頻道","type":0,"url":"https://d.kstore.dev/download/15114/TVSolo.txt","playerType":1},	
 {"name": "📠┃咪咕LITV「直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt","playerType":1},
@@ -160,6 +160,7 @@
 //{"name": "🏈┃网络「直播」","url": "https://m.iill.top/Live.m3u","header": {"User-Agent": "okhttp/3.8.1","Referer": "https://m.iill.top/"}},
 {"name": "🏈┃电视家「直播」","url": "https://down.nigx.cn/dsj.zzong6599.workers.dev/","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36","Referer": "","cookie": ""},"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "http://diyp5.112114.xyz/{name}.png"},
 {"name": "🏈┃裤佬「直播」","url": "https://down.nigx.cn/raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1","header": {"Referer": "https://www.kds.tw/"},"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "http://diyp5.112114.xyz/{name}.png"},
+{"name": "🍏️┃范明明「直播V6」","type":0,"url":"https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType":2},
 	
 ##自家系列直播
 {"name": "🪓┃jtv收集「网络直播」","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt","playerType":1},
@@ -332,7 +333,9 @@
 {"name": "🛷┃日后大湿特区「直播」","boot": true,"type":0,"url": "http://rihou.cc:555/ggg.nzk","playerType":2,"ua": "judy/5.2.1"},
 {"name": "🛷┃日后大湿itv「直播」","boot": true,"type":0,"url":"https://itv-list.myukj.cn/list/itv.m3u","playerType":1,"ua":"c1c42b9e0d9e3a3a","epg":"https://epg.112114.eu.org/?ch={name}&date={date}","logo":"https://epg.112114.eu.org/logo/{name}.png"},	
 {"name": "🔐┃gshtwy直播","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/gshtwy/MyTv/refs/heads/main/MyTv.m3u","playerType":1}],
-
+	
+"proxy": [
+    "raw.githubusercontent.com"],
 "hosts": [
 	"cache.ott.ystenlive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
 	"cache.ott.bestlive.itv.cmvideo.cn=itv.dns.xuran1983.cn",
@@ -344,7 +347,12 @@
 	"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 	"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
 	"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-	"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+	"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+	"hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+    "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+    "cdn9.163189.xyz=gcore.jsdelivr.net",
+    "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
 ],
   "ads": [
     "static-mozai.4gtv.tv"
@@ -363,33 +371,4 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
