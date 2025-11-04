@@ -1,18 +1,17 @@
 {
-"spider":"https://oss4liview.moji.com/thd_file/2025/10/30/e9010dd3352828f799912154896b54db.jpg;md5;03d768a3fcf8c977d6ce5db0f6405661",
+"spider":"https://oss4liview.moji.com/thd_file/2025/11/03/cc12b64ece89f1d75d2f371039694aa0.jpg;md5;11b6dbd2b630fc9c95e36247917f55db",
 "wallpaper":"https://imgs.catvod.com/","logo":"./Pictures/junmeng.gif",
 
 "sites":[
 ##常用系列
 {"key":"玩偶","name":"🤹‍♂️┃饭硬┃玩偶哥哥","type":3,"api":"csp_WoGGGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d"},
-//{"key":"豆","name":"🎁┃豆瓣┃影视","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"豆","name":"🎁┃豆瓣┃影视","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"苹果","name":"🍎┃苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"文采","name":"💮┃文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Lib","name":"🏈┃Libvio┃秒播","type":3,"api":"csp_LibvioGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-//{"key":"木耳","name":"🍄┃猫木耳┃秒播","type":1,"api":"https://json02.heimuer.xyz/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10,"categories":["剧情片","动作片","冒险片","同性片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","灾难片","爱情片","犯罪片","科幻片","歌舞片","战争片","经典片","动画电影","网络电影","其他片","国产剧","港剧","韩剧","日剧","泰剧","台剧","欧美剧","新马剧","其他剧","国产综艺","港台综艺","韩国综艺","日本综艺","欧美综艺","新马泰综艺","其他综艺","古装短剧","虐恋短剧","逆袭短剧","神豪短剧","重生短剧","复仇短剧","穿越短剧","甜宠短剧","强者短剧","欧美动漫","日本动漫","韩国动漫","国产动漫","港台动漫"],"header":{"user-agent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/125.0.0.0Safari/537.36"}},
-{"key": "Xb6v","name": "🍄┃新版6V┃视频","type": 3,"api": "csp_Xb6v","searchable": 1,"filterable": 1,"ext":"","jar":"https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
-{"key": "NCat","name": "🧀┃网飞猫┃影视","type": 3,"api": "csp_NCat","searchable": 1,"filterable": 1,"ext":"","jar":"https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
+{"key": "Xb6v","name": "🍄┃新版6V┃视频","type": 3,"api": "csp_Xb6v","searchable": 1,"filterable": 1,"ext":"","jar":"./jar/netlify.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
+{"key": "NCat","name": "🧀┃网飞猫┃影视","type": 3,"api": "csp_NCat","searchable": 1,"filterable": 1,"ext":"","jar":"./jar/netlify.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
 {"key": "黑木耳","name": "🎳┃黑木耳┃秒播","type": 4,"api": "http://zhangqun66.com/225.php","style": {"type": "rect","ratio": 1.33},"changeable": 1}, 
 {"key":"原创","name":"🧧┃修罗┃影视","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"白白","name":"🐟┃素白┃秒播","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
@@ -160,7 +159,7 @@
 {"name": "🧊┃冰茶揾定「直播象」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.110.1","playerType":1},
 {"name": "🥇┃冰茶揾定「直播清」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.2.1","playerType":1},
 {"name": "📱┃冰茶揾定「直播秀」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.0.1","playerType":1},
-{"name": "🍺┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://fy.188766.xyz/?url=http://tv123.top:35455&mima=bingchawusifengxian","ua": "bingcha/1.1 (mianfeifenxiang) "},
+{"name": "🍺┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://fy.188766.xyz/?url=http://tv123.top:35455&mishitong=true&mima=bingchawusifengxian","ua": "bingcha/1.1 (mianfeifenxiang) "},
 {"name": "🍍┃斯玛特全球直播","url":"https://d.kstore.dev/download/15114/HKoo.txt"},
 {"name": "🛺┃港台秒播頻道","type":0,"url":"https://d.kstore.dev/download/15114/TVSolo.txt","playerType":1},	
 {"name": "📠┃咪咕LITV「直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/qingtingjjjjjjj/iptv-auto-update/main/my.txt","playerType":1},
@@ -385,6 +384,9 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
 
 
 
