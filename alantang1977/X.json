@@ -1,5 +1,5 @@
 {
-"spider":"https://oss4liview.moji.com/thd_file/2025/11/11/ee569a4a129ec2bb8cbc97432f7d85d0.jpg;md5;6713b8d1f3cd6fa972c71c653e15450d",
+"spider":"https://oss4liview.moji.com/thd_file/2025/11/14/1b8a761b9c9ed2f3aabaff5c48b6da0d.jpg;md5;3224489089f7c7d6d9c13ef9defb59a6",
 "wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -20,10 +20,12 @@
 {"key":"网盘配置","name": "🐧┃网盘及彈幕┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d","style": {"type": "rect","ratio": 1.5}},
  
 ##PY源系列
+	
+{"key": "hollymoviehd","name": "🎭┃好莱坞┃影视","type": 3,"api": "./py/好莱坞.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key": "hohaiemby","name": "🧃┃影视┃EMBY","type": 3,"api": "./py/emby.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"server": "https://emby.hohai.eu.org:443","username": "chuxin666","password": "ycc123456","proxy": "","thread": 0,"device_name": "My Computer","client": "Hills Windows","client_version": "0.2.2","device_id": "a9f74849-83d5-4a28-8b85-a087af1402e3"}},     
+{"key": "兄弟影视","name": "📺┃兄弟┃影视","type": 3,"api": "./py/兄弟影视.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "LIBVIO","name": "🛷┃LIBVIO┃TV","type": 3,"api": "./py/LIBVIO.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "4KFS","name": "🦄️┃4KFS┃挂梯","type": 3,"api": "./py/4KFS.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},
-//{"key": "tvbs","name": "📚┃smt「直播」┃TV","type": 1,"api": "http://alantang.serv00.net/smt.php","style": {"type": "rect","ratio": 1.33},"changeable": 1},
-//{"key": "TV","name": "🛷┃「直播」┃TV","type": 1,"api": "http://alantang.serv00.net/zgst.php","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "UVod","name": "🎦┃优视频┃影视","type": 3,"api": "./py/UVod.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "js_en_gf","name": "🥭┃官方采集┃芒果","type": 3,"api": "./py/en_gf.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "努努","name": "🍆┃努努影院┃TV","type": 3,"api": "./py/努努影院.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
@@ -33,14 +35,13 @@
 {"key": "4KVM","name": "🍿┃4K影视┃TV","type": 3,"api": "./py/4KVM.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "bili","name": "📺┃bili┃TV","type": 3,"api": "./py/bili.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "两个BT","name": "🥓┃两个BT┃TV","type": 3,"api": "./py/两个BT.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
-{"key": "hohaiemby","name": "🥄┃影视┃EMBY","type": 3,"api": "./py/emby.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"server": "https://emby.hohai.eu.org:443","username": "chuxin666","password": "ycc123456","proxy": "","thread": 0,"device_name": "My Computer","client": "Hills Windows","client_version": "0.2.2","device_id": "a9f74849-83d5-4a28-8b85-a087af1402e3"}},     
 {"key": "4K影视","name": "📻┃4K影视┃TV","type": 3,"api": "./py/4K影视.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "LSYS","name": "🛠️┃电影猎手┃TV","type": 3,"api": "./py/LSYS.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "Mang","name": "🥦┃芒go┃TV","type": 3,"api": "./py/Mang.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "YYMP3","name": "🎸┃YYMP3┃音乐网","type": 3,"api": "./py/YYMP3音乐网.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "奇优","name": "🎦┃奇优┃动漫","type": 3,"api": "./py/奇优动漫.py","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "lives","name": "🍖┃直播Lives┃TV","type": 3,"api": "./py/直播.js","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
-//{"key": "zgst","name": "🛷┃「直播」┃TV","type": 3,"api": "./py/zgst.php","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+
 {"key": "永乐","name": "🚁┃永乐视频┃TV","type": 3,"api": "./py/永乐视频.py","searchable": 1,"quickSearch": 1,"filterable": 1,"order_num": 0,"ext": ""},
 {"key": "壹帆","name": "🥝┃壹帆影视┃TV","type": 3,"api": "./py/爱壹帆.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key": "麦田","name": "🍃┃麦田影院┃TV","type": 3,"api": "./py/麦田影院.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
@@ -325,7 +326,9 @@
 {"name": "🐤┃Guovin直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u","playerType": 1,"epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://live.fanmingming.com/tv/{name}.png"},	
 {"name": "🧸┃CCSH直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/CCSH/IPTV/main/live.m3u","playerType":1},
 {"name": "⛴️┃IPTV-CCSH直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/IPTV-CCSH/refs/heads/main/live.m3u","playerType":1},
-{"name": "🧅┃ssili126直播","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt","playerType":1},
+{"name": "🧅┃ssili126「直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/ssili126/tv/main/itvlist.txt","playerType":1},
+{"name": "🧅┃ssili126「speed直播」","type":0,"url":"https://gh.catmak.name/https://raw.githubusercontent.com/ssili126/tv/main/speed_results.txt","playerType":1},
+	
 {"name": "🎂┃suxuang直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u","playerType":1},
 {"name": "🛍️┃myernestlu直播","type": 0,"url": "https://myernestlu.github.io/zby.txt","playerType":1},
 {"name": "🀄️┃zbefine直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u","playerType":1},
@@ -392,6 +395,10 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
+
 
 
 
