@@ -1,5 +1,5 @@
 {
-"spider":"https://oss4liview.moji.com/thd_file/2025/11/27/b38fa1edf1a327d7ecb1467cf779a89c.jpg;md5;a498725399158b7c272090aac796bfb6",
+"spider":"https://oss4liview.moji.com/thd_file/2025/11/28/6b765637d974223e1dddaaef872d0191.jpg;md5;403a59bd559cc36fe67544e5de66e774",
 "wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -146,12 +146,13 @@
 
 "lives": [
 {"name": "🦸┃tangTV直播","type": 0,"url": "https://wget.la/raw.githubusercontent.com/alantang1977/JunTV/refs/heads/main/output/result.m3u","playerType":1},
-{"name": "🧊┃冰茶揾定「直播象」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.110.1","playerType":1},
-{"name": "🥇┃冰茶揾定「直播清」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.1.1","playerType":1},
-{"name": "📱┃冰茶揾定「直播秀」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.0.1","playerType":1},
-{"name": "🍺┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://bc.188766.xyz/?url=http://tv123.top:35455&mishitong=true&mima=bingchawusifengxian","ua": "bingcha/1.1 (mianfeifenxiang) "},
+//{"name": "🧊┃冰茶揾定「直播象」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.110.1","playerType":1},
+//{"name": "🥇┃冰茶揾定「直播清」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.1.1","playerType":1},
+//{"name": "📱┃冰茶揾定「直播秀」","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.0.1","playerType":1},
+{"name": "🍺┃冰茶官方「TG直播」","type": 0,"playerType": 2,"url": "https://bc.188766.xyz/?url=https://live.1977.xyz&mishitong=true&mima=mianfeibuhuaqian","ua": "bingcha/1.1 (mianfeifenxiang) "},
 {"name": "🪓┃jtv收集「网络直播」","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/网络收集.txt","playerType":1},
 {"name": "🛬┃iptv_api直播","type": 0,"url": "https://gh.catmak.name/https://raw.githubusercontent.com/alantang1977/iptv_api/refs/heads/main/output/live_ipv4.m3u","playerType":1},
+{"name": "🛺┃china全国tv「直播」","type":0,"url":"https://cloud.7so.top/f/yrlQHL/chinaTV.m3u","ua": "","timeout": 10,"playerType": 1},
 	
 {"name": "🥑┃tmxk「iptv直播」","type": 0,"url": "https://tmxk.pp.ua/iptv-cn.m3u","playerType":1},
 {"name": "🌶️┃tmxk「smart直播」","type": 0,"url": "https://tmxk.pp.ua/smart-cn.m3u","playerType":1},
@@ -171,7 +172,6 @@
 {"name": "🎙️┃mymytv「直播」","type":0,"url":"http://xtvantsc.xyz/mytv.m3u","playerType":1},	
 
 {"name": "🐼️┃风云saileitv「直播」","type":0,"url":"https://d.kstore.dev/download/15114/saileitv.m3u","ua": "","timeout": 10,"playerType": 2},
-{"name": "🛺┃china全国tv「直播」","type":0,"url":"https://cloud.7so.top/f/yrlQHL/chinaTV.txt","ua": "","timeout": 10,"playerType": 2},
 {"name": "🍍┃4Gtv台湾「直播」","type":0,"url":"https://cloud.7so.top/f/9Q8lH2/tw.txt","ua": "","timeout": 10,"playerType": 2},
 {"name": "🌺┃全国网通「直播」","url":"https://zb.pl10000.top/list.txt"},
 {"name": "🀄️┃itv秒播「頻道」","type":0,"url":"https://wget.la/raw.githubusercontent.com/mzky/checklist/refs/heads/master/itvlist.m3u","playerType":1},
@@ -401,6 +401,8 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
 
 
 
