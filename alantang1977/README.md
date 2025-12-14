@@ -78,6 +78,25 @@ http://mpanso.me/小米/DEMO.json
 
 ## 在线TXT/M3U 转换工具 https://lives.catvod.com
 
+# CF搭建地址
+    ## fofa官网 https://fofa.info  【搜索关键词：asn!="13335" && region="TW" && server=="cloudflare"】，"TW"代表是台湾缩写,如香港"HK"
+
+    ## CloudFlare优选IPV4地址 https://www.wetest.vip/page/cloudflare/address_v4.html
+
+    ## CF优选域名 https://mrxn.net/BESTCFDOMAIN
+
+    ## 地区码对照表 http://szdm.00cha.net
+    
+    ## 临时邮箱 https://www.linshiyouxiang.net
+
+    DOH服务器：
+
+    阿里云（默认）：dns.alidns.com/dns-query
+
+    腾讯 DNSPod：doh.pub/dns-query
+
+     360 安全 DNS： doh.360.cn/dns-query
+
 ## 🛩️Github文件加速：
 
 https://gh.catmak.name/
