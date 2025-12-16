@@ -5,18 +5,22 @@
 "sites":[
 ##常用系列
 {"key":"玩偶","name":"🤹‍♂️┃饭硬┃玩偶哥哥","type":3,"api":"csp_WoGGGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
-{"key":"Lib","name":"🏈┃Libvio┃秒播","type":3,"api":"csp_LibvioGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
-{"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d"},
-{"key": "剧透","name": "🚗┃剧透社┃影视","type": 3,"api": "./py/剧透社.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
-{"key":"木兮","name": "🍃┃爱木兮┃影视","type": 3,"api": "./py/山有木兮.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-{"key": "飞快","name": "🥊┃飞快┃TV","type": 3,"api": "./py/飞快_pan.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key":"豆","name":"🎁┃豆瓣┃影视","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"filterable": 0},
+{"key":"木兮","name": "🍃┃爱木兮┃影视","type": 3,"api": "https://cnb.cool/junchao.tang/jtv/-/git/raw/main/py/山有木兮.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+
+{"key":"Lib","name":"🏈┃Libvio┃秒播","type":3,"api":"csp_LibvioGuard","searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},	
+{"key":"采集(异步)","name":"🧀┃采集┃(异步)","type": 4,"api": "http://zhangqun1818.serv00.net:6628/?user=萝莉","searchable": 1,"quickSearch": 1,"style": {"type": "rect","ratio": 1.33}, "filterable": 1},
 {"key":"爱看","name":"🤖┃机器人┃爱看","type":3,"api":"https://wget.la/raw.githubusercontent.com/alantang1977/dr_py/main/libs/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"https://wget.la/raw.githubusercontent.com/alantang1977/X/refs/heads/main/py/爱看机器人[虫].js"},
-{"key":"爱壹帆","name": "⛵┃爱壹帆┃影视","type": 3,"api": "./py/ayf.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-{"key":"瓜瓜","name":"🍉┃瓜子┃影视","type":3,"api":"./lib/drpy2.min.js","searchable":2,"quickSearch":1,"filterable":0,"ext":"./py/瓜子.js"},
+	
+{"key": "剧透","name": "🚗┃剧透社┃影视","type": 3,"api": "./py/剧透社.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key":"瓜子","name":"🍉┃瓜子┃影视","type":3,"api":"csp_GuaziAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"ext":"https://cloud.7so.top/f/1r61hq/guazi.json","jar":"./jar/嗷嗚.jar"},
+{"key": "飞快","name": "🥊┃飞快┃TV","type": 3,"api": "https://cnb.cool/junchao.tang/jtv/-/git/raw/main/py/飞快_pan.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+
+{"key":"苹果","name":"🍎┃苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},	
+{"key":"爱壹帆","name": "⛵┃爱壹帆┃影视","type": 3,"api": "./py/ayf.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
 {"key":"粤漫","name": "💵┃粤动漫┃漫画","type": 3,"api": "./py/粤漫.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key":"高清","name": "🎦┃高清┃电影","type": 3,"api": "./py/高清电影.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key":"七味","name": "🎭┃七味┃电影","type": 3,"api": "./py/七味[集].py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
-{"key":"苹果","name":"🍎┃苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"文采","name":"💮┃文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 //{"key": "Xb6v","name": "🍄┃新版6V┃视频","type": 3,"api": "csp_Xb6v","searchable": 1,"filterable": 1,"ext":"","jar":"./jar/netlify.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
 //{"key": "NCat","name": "🧀┃网飞猫┃影视","type": 3,"api": "csp_NCat","searchable": 1,"filterable": 1,"ext":"","jar":"./jar/netlify.jar;md5;42679cde91765ee4f4a0de1d8c61a09a"},
@@ -25,17 +29,17 @@
 //{"key":"白白","name":"🐟┃素白┃秒播","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"Bili","name":"🅱┃哔哔合集┃弹幕","type":3,"api":"csp_BiliGuard","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"https://d.kstore.dev/download/15114/bilibili.txt"}},	
 {"key":"MyDrive","name":"🗂┃我的云盘┃配置","type":3,"api":"csp_MyDriveGuard","changeable":0,"indexs":0,"searchable":1,"style":{"type":"oval"},"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-{"key":"网盘配置","name": "🐧┃网盘及彈幕┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d","style": {"type": "rect","ratio": 1.5}},
+{"key":"网盘配置","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d","style": {"type": "rect","ratio": 1.5}},
+{"key": "商店","name": "🏬┃app商店┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"style": {"type": "oval","ratio": 1.1},"ext": "https://cnb.cool/junchao.tang/jtv/-/git/raw/main/dongliTV/config/market.json","jar":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/dongliTV/jar/dongli-spider.jar"},
 //{"key": "云集","name": "🍖┃电影云集┃TV","type": 3,"api": "./py/电影云集[盘].py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},	
-{"key": "云集","name": "🍖┃电影云集┃TV","type": 3,"api": "./py/电影云集.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+//{"key": "云集","name": "🍖┃电影云集┃TV","type": 3,"api": "./py/电影云集.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 //{"key": "飞牛影视","name": "🍒┃飞牛影视┃TV","type": 3,"api": "./lib/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"ext": "./py/飞牛影视.js"},
 //{"key": "dr_荐片[优]","name": "☯┃荐片[DR]","type": 3,"api": "./lib/drpy2.min.js","searchable": 2,"quickSearch": 0,"filterable": 1,"timeout": 30,"ext": "./js/荐片[磁].js"},	
-{"key":"GitHub","name": "🐙┃商店┃市场","type":3,"api":"csp_GitHubAmns","searchable":0,"filterable":0,"quickSearch":0,"changeable":0,"ext":"https://cloud.7so.top/f/ZVYqCQ/github(APP).json","jar":"./jar/嗷嗚.jar"},
-{"key":"瓜子","name":"🍉┃瓜子┃影视","type":3,"api":"csp_GuaziAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"ext":"https://cloud.7so.top/f/1r61hq/guazi.json","jar":"./jar/嗷嗚.jar"},
-{"key":"豆","name":"🎁┃豆瓣┃影视","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"filterable": 0},
+//{"key":"GitHub","name": "🐙┃商店┃市场","type":3,"api":"csp_GitHubAmns","searchable":0,"filterable":0,"quickSearch":0,"changeable":0,"ext":"https://cloud.7so.top/f/ZVYqCQ/github(APP).json","jar":"./jar/嗷嗚.jar"},
+{"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d"},
 	
 ##PY源系列
-{"key": "瓜子","name": "🚗┃瓜子┃影视","type": 3,"api": "./py/瓜子.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key": "瓜子py","name": "🚗┃瓜子py┃影视","type": 3,"api": "./py/瓜子.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "hollymoviehd","name": "🎭┃好莱坞┃影视","type": 3,"api": "./py/好莱坞.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "hohaiemby","name": "🧃┃EMBY┃影视","type": 3,"api": "./py/emby.py","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 1,"ext": {"server": "https://emby.hohai.eu.org:443","username": "chuxin666","password": "ycc123456","proxy": "","thread": 0,"device_name": "My Computer","client": "Hills Windows","client_version": "0.2.2","device_id": "a9f74849-83d5-4a28-8b85-a087af1402e3"}},     
 {"key": "兄弟","name": "📺┃兄弟┃影视","type": 3,"api": "./py/兄弟影视.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
@@ -441,6 +445,14 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
+
+
+
+
+
 
 
 
