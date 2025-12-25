@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jpg;md5;1c82626b181e3c73b02683b2e81238d2",
+"spider":"./jar/custom_spider.jpg;md5;9b3e327c02439fe4e1d6223beca9ed17",
 "wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -19,8 +19,12 @@
 //{"key": "wv_hanju7","name": "🪅┃新韩剧网┃wv","api": "csp_WvSpider","type": "3","ext": "./vod/新韩剧网.js","searchable": 1,"filterable": 1,"switchable": 1,"jar":"./jar/WvSpider.jar"},
 //{"key": "wv_aizju","name": "🍄┃爱追剧┃wv","api": "csp_WvSpider","type": "3","ext": "./vod/爱追剧.js","searchable": 1,"filterable": 1,"switchable": 1,"jar":"./jar/WvSpider.jar"},
 //{"key": "wv_ddys","name": "🎳┃低端影视┃wv","api": "csp_WvSpider","type": "3","ext": {"jsPath": "./vod/低端影视.js","anything": "Enjoy享受"},"searchable": 1,"filterable": 1,"switchable": 1,"jar":"./jar/WvSpider.jar"},
-
+{"key": "apple","name": "🎳┃apple┃影视","type": 3,"api": "./js/apple.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "永乐视频","name": "🍄┃永乐视频┃影视","type": 3,"api": "./js/永乐视频.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "hanju51","name": "🛩️┃韩剧网┃影视","type": 3,"api": "./js/韩剧网.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "韩剧看看","name": "🪅┃韩剧看看┃影视","type": 3,"api": "./py/新韩剧网.min.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key": "海龟","name": "🛩️┃海龟┃影视","type": 3,"api": "./js/海龟.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
+	
 {"key": "小苹果PHP","name": "🪼┃小苹果┃PHP","type": 4,"api": "https://tangstudio.dpdns.org/小苹果.php","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key":"苹果","name":"🍎┃苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},	
 {"key":"采集(异步)","name":"🧀┃采集┃(异步)","type": 4,"api": "http://zhangqun1818.serv00.net:6628/?user=萝莉","searchable": 1,"quickSearch": 1,"style": {"type": "rect","ratio": 1.33}, "filterable": 1},
@@ -67,7 +71,7 @@
 {"key": "js_en_gf","name": "🥭┃官方采集┃芒果","type": 3,"api": "./py/en_gf.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "努努","name": "🍆┃努努影院┃TV","type": 3,"api": "./py/努努影院.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "界影视","name": "📚┃界影视┃TV","type": 3,"api": "./py/界影视.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
-{"key": "apple","name": "☎️┃小苹果┃PY","type": 3,"api": "./py/小苹果.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
+{"key": "","name": "☎️┃小苹果┃PY","type": 3,"api": "./py/小苹果.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "苹果","name": "🎛️┃小小苹果┃PY","type": 3,"api": "https://cloud.7so.top/f/W76KID/小小苹果.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "4KVM","name": "🍿┃4K影视┃TV","type": 3,"api": "./py/4KVM.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 {"key": "bili","name": "🏸┃bili┃TV","type": 3,"api": "./py/bili.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
@@ -125,7 +129,7 @@
 {"key":"seed","name":"🏊‍♀️聚剧剧┃三盘","type":3,"api":"csp_SeedhubGuard","ext":"5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable":1,"quickSearch":1,"changeable":0,"indexs":0,"style":{"type":"list"}},
 {"key":"立播","name":"🌟立播┃秒播","type":3,"api":"csp_LibvioGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto"}},
 {"key":"厂长","name":"📔厂长┃秒播","type":3,"api":"csp_NewCzGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"苹果","name":"🚢苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"苹果","name":"🚢苹果┃秒播","type":3,"api":"csp_LiteGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"文采","name":"⛏️文采┃秒播","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"原创","name":"☀原创┃秒播","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"比特","name":"🚀比特┃秒播","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
@@ -453,6 +457,10 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
+
 
 
 
