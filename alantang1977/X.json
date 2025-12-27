@@ -22,7 +22,9 @@
 {"key": "海龟视频","name": "🛩️┃海龟视频┃影视","type": 3,"api": "./js/海龟.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "鬼片之家","name": "🐟┃鬼片之家┃影视","type": 3,"api": "./js/鬼片之家.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "聚合短剧","name": "🎛️┃聚合短剧┃影视","type": 3,"api": "./js/聚合短剧.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
-{"key": "瓜子js","name": "🍉┃瓜子js┃影视","type": 3,"api": "./js/聚合短剧.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "金牌影院","name": "🎳┃金牌影院┃影视","type": 3,"api": "./js/金牌影院.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "荐片影院","name": "🐙┃荐片影院┃影视","type": 3,"api": "./js/荐片.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "界界影视","name": "☯┃界界影视┃影视","type": 3,"api": "./js/界影视.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 	
 {"key": "小苹果PHP","name": "🪼┃小苹果┃PHP","type": 4,"api": "https://tangstudio.dpdns.org/小苹果.php","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key":"苹果","name":"🍎┃苹果┃秒播","type":3,"api":"csp_LiteAppleGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},	
@@ -457,6 +459,9 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
 
 
 
