@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jpg;md5;9b3e327c02439fe4e1d6223beca9ed17",
+"spider":"./jar/custom_spider.jpg;md5;b45bba582136db7532d6ee2f14da6304","notice": "🧨happy New Year 新年启航，万象更新。万事胜意！财源广进🧨🎉！", 
 "wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -16,14 +16,15 @@
 {"key":"瓜子","name":"🍉┃瓜子┃影视","type":3,"api":"csp_GuaziAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"ext":"https://cloud.7so.top/f/1r61hq/guazi.json","jar":"./jar/嗷嗚.jar"},
 {"key": "飞快","name": "🥊┃飞快┃TV","type": 3,"api": "https://cnb.cool/junchao.tang/jtv/-/git/raw/main/py/飞快_pan.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
 
-{"key": "js集合","name": "☎️┃js源┃集合┃","type": 4,"api": "http://zhangqun1818.serv00.net/js.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"changeable": 1},
-{"key": "采集集合","name": "🥇┃采集┃集合","type": 4,"api": "http://zhangqun1818.serv00.net/cj/cjjh.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"ext":"1","changeable": 1},
+{"key": "采集合集py","name": "⚖️┃py采集┃合集","type": 3,"api": "./py/采集合集.py","searchable": 1,"quickSearch": 1,"filterable": 0,"changeable": 1,"playerType": 2,"ext": "1"},
+{"key": "js集合","name": "☎️┃js采集┃合集","type": 4,"api": "http://zhangqun1818.serv00.net/js.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"changeable": 1},
+{"key": "采集集合","name": "🥇┃采集┃合集","type": 4,"api": "http://zhangqun1818.serv00.net/cj/cjjh.php","searchable": 1,"style": {"type": "rect","ratio": 1.33},"ext":"1","changeable": 1},
 
 {"key": "TG盘搜[搜]","name": "🕹️️┃TG盘搜[搜]┃影视","type": 3,"api": "./js/TG盘搜[搜].js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "TG搜百度[搜]","name": "🎙️️┃TG搜百度[搜]┃影视","type": 3,"api": "./js/TG搜百度[搜].js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "Emby小雅","name": "🎚️️┃Emby小雅┃影视","type": 3,"api": "./js/Emby小雅.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 
-{"key": "账号密码版","name": "🎛️️┃Emby账号密码版┃影视","type": 3,"api": "./js/账号密码版.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
+//{"key": "账号密码版","name": "🎛️️┃Emby账号密码版┃影视","type": 3,"api": "./js/账号密码版.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},	
 {"key": "Emby视频","name": "☎️️┃Emby视频┃影视","type": 3,"api": "./js/Emby.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "永乐视频","name": "🍄┃永乐视频┃影视","type": 3,"api": "./js/永乐视频.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "hanju51","name": "🍖┃韩剧视频┃影视","type": 3,"api": "./js/韩剧网.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
@@ -458,4 +459,13 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
+
+
+
+
+
+
 
