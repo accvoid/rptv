@@ -1,6 +1,6 @@
 {
 "spider":"./jar/custom_spider.jpg;md5;4031d4da318c8eb32252aa4b51b04126","notice": "🧨Happy New Year 新年启航,万象更新！万事胜意！财源广进🧨🎉！", 
-"wallpaper":"https://bing.img.run/rand.php","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
+"wallpaper":"https://bing.img.run/rand.php","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/jimeng.gif",
 
 "sites":[
 ##常用系列
@@ -99,10 +99,11 @@
 //{"key": "B站高清","name": "🎳┃B站高清┃影视","type": 3,"api": "./js/B站高清.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
 {"key": "兄弟影视","name": "🏄‍♂️┃兄弟影视┃TV","type": 3,"api": "./py/兄弟影视.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 	
+{"key":"MTV1","name":"🎙️┃易听音乐┃带歌词","type":3,"api":"csp_MusicGuard","style":{"type":"rect","ratio":1},"playerType":2,"searchable":1,"quickSearch":0,"changeable":0},	
 {"key": "网易云音乐","name": "♟️┃网易云音乐┃MV","type": 3,"api": "./py/网易云音乐.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key": "枫叶音乐","name": "👍┃枫叶音乐┃MV","type": 3,"api": "./json/枫叶音乐.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
 {"key": "爱听音乐","name": "🥊┃爱听音乐┃MV","type": 3,"api": "./json/爱听音乐.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-	
+{"key": "Wexlaobaitingshu","name": "🐇┃白兔┃听书","type": 3,"api": "csp_WexlaobaitingshuGuard","ext": "","jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4C1FF0E_773_wex_20251125202938981newMediaImage.png;md5;905b506670b52fb2a680743fb13086fc","searchable": 1,"quickSearch": 1,"filterable": 1},	
 
 {"key": "MDrive","name": "🗂┃饭硬云盘┃配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},	
 //{"key": "网盘","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar;md5;eebd540f3a683eb8c5b4f5a61288053d","style": {"type": "rect","ratio": 1.5}},
@@ -176,7 +177,6 @@
 	
 ##饭太硬系列
 {"key":"天堂影视","name":"🥨┃天堂┃影视","type":1,"api":"https://heimuer.ggff.net/api.php/tvbox","searchable":1,"quickSearch":1,"filterable":0,"ext":"","jar":"./jar/spider.jar"},
-{"key":"MTV1","name":"🎙️易听音乐┃带歌词","type":3,"api":"csp_MusicGuard","style":{"type":"rect","ratio":1},"playerType":2,"searchable":1,"quickSearch":0,"changeable":0},
 	
 {"key":"ZPan","name":"🎈聚盘搜┃三盘","type":3,"api":"csp_S_zpsGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":{"siteUrl":"http://38.55.131.86:82/"},"indexs":0,"style":{"type":"list"}},
 {"key":"立播","name": "🌟立播┃秒播","type": 3,"api": "csp_LibvioGuard","timeout":10,"searchable": 1,"quickSearch": 1,"changeable":1,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
@@ -541,6 +541,9 @@
     "ijk":[
         {"group":"软解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"0"},{"category":4,"name":"mediacodec-auto-rotate","value":"0"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"0"},{"category":4,"name":"mediacodec-hevc","value":"0"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]},
         {"group":"硬解码","options":[{"category":4,"name":"opensles","value":"0"},{"category":4,"name":"overlay-format","value":"842225234"},{"category":4,"name":"framedrop","value":"1"},{"category":4,"name":"soundtouch","value":"1"},{"category":4,"name":"start-on-prepared","value":"1"},{"category":1,"name":"http-detect-range-support","value":"0"},{"category":1,"name":"fflags","value":"fastseek"},{"category":2,"name":"skip_loop_filter","value":"48"},{"category":4,"name":"reconnect","value":"1"},{"category":4,"name":"enable-accurate-seek","value":"0"},{"category":4,"name":"mediacodec","value":"1"},{"category":4,"name":"mediacodec-auto-rotate","value":"1"},{"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},{"category":4,"name":"mediacodec-hevc","value":"1"},{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}]}
+
+
+
 
 
 
