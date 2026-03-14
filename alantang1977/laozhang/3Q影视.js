@@ -1,244 +1,147 @@
-let host = 'https://qqqys.com';
+let HOST = 'https://www.qqqys.com'
+
 let headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36',
-    'accept-language': 'zh-CN,zh;q=0.9',
-    'cache-control': 'no-cache',
-    'pragma': 'no-cache',
-    'priority': 'u=1, i',
-    'sec-ch-ua': '"Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"',
-    'sec-ch-ua-mobile': "?0",
-    'sec-ch-ua-platform': '"Windows"',
-    'sec-fetch-dest': "empty",
-    'sec-fetch-mode': "cors",
-    'sec-fetch-site': "same-origin"
-};
-
-async function init(cfg) {}
-
-/**
- * 辅助函数：将API返回的视频列表转为标准vod格式
- */
-function json2vods(arr) {
-    let videos = [];
-    for (const i of arr) {
-        let type_name = i.type_name || '';
-        if (i.vod_class) {
-            type_name = type_name + ',' + i.vod_class;
-        }
-        videos.push({
-            'vod_id': i.vod_id.toString(),
-            'vod_name': i.vod_name,
-            'vod_pic': i.vod_pic,
-            'vod_remarks': i.vod_remarks,
-            'type_name': type_name,
-            'vod_year': i.vod_year
-        });
-    }
-    return videos;
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+    'Referer': HOST
 }
 
-async function home(filter) {
-    let url = host + '/api.php/index/home';
-    let resp = await req(url, { headers: headers });
-    let json = JSON.parse(resp.content);
-    let categories = json.data.categories;
+async function request(url){
 
-    let classes = [];
-    let videos = [];
+    let res = await req(url,{headers:headers})
 
-    for (const i of categories) {
-        classes.push({
-            'type_id': i.type_name,
-            'type_name': i.type_name
-        });
-        videos.push(...json2vods(i.videos));
+    return res.content
+}
+
+/* 首页 */
+async function home(){
+
+    return JSON.stringify({
+        class:[
+            {type_id:1,type_name:'电影'},
+            {type_id:2,type_name:'电视剧'},
+            {type_id:3,type_name:'动漫'},
+            {type_id:4,type_name:'综艺'}
+        ]
+    })
+}
+
+/* 分类 */
+async function category(tid,pg){
+
+    let html = await request(`${HOST}/type/${tid}-${pg}.html`)
+
+    let list=[]
+
+    let reg = /href="\/vod\/(\d+)"[\s\S]*?data-src="(.*?)"[\s\S]*?title="(.*?)"/g
+
+    let m
+
+    while((m=reg.exec(html))!=null){
+
+        list.push({
+            vod_id:m[1],
+            vod_name:m[3],
+            vod_pic:m[2]
+        })
     }
 
     return JSON.stringify({
-        class: classes,
-        list: videos,
-        filters: {}
-    });
+        list:list,
+        page:pg
+    })
 }
 
-async function homeVod() {
-    return JSON.stringify({ list: [] });
-}
+/* 搜索 */
+async function search(wd){
 
-async function category(tid, pg, filter, extend) {
-    let url = `${host}/api.php/filter/vod?type_name=${encodeURIComponent(tid)}&page=${pg}&sort=hits`;
-    let resp = await req(url, { headers: headers });
-    let json = JSON.parse(resp.content);
+    let html = await request(`${HOST}/search/${encodeURIComponent(wd)}`)
 
-    return JSON.stringify({
-        list: json2vods(json.data),
-        page: parseInt(pg),
-        pagecount: json.pageCount
-    });
-}
+    let list=[]
 
-async function search(wd, quick, pg) {
-    let url = `${host}/api.php/search/index?wd=${encodeURIComponent(wd)}&page=${pg}&limit=15`;
-    let resp = await req(url, { headers: headers });
-    let json = JSON.parse(resp.content);
+    let reg=/href="\/vod\/(\d+)"[\s\S]*?title="(.*?)"[\s\S]*?data-src="(.*?)"/g
 
-    return JSON.stringify({
-        list: json2vods(json.data),
-        page: parseInt(pg),
-        pagecount: json.pageCount
-    });
-}
+    let m
 
-async function detail(id) {
-    let url = `${host}/api.php/vod/get_detail?vod_id=${id}`;
-    let resp = await req(url, { headers: headers });
-    let json = JSON.parse(resp.content);
-    let data = json.data[0];
-    let vodplayer = json.vodplayer;
+    while((m=reg.exec(html))!=null){
 
-    let shows = [];
-    let play_urls = [];
-
-    let raw_shows = data.vod_play_from.split('$$$');
-    let raw_urls_list = data.vod_play_url.split('$$$');
-
-    for (let i = 0; i < raw_shows.length; i++) {
-        let show_code = raw_shows[i];
-        let urls_str = raw_urls_list[i];
-
-        let need_parse = 0;
-        let is_show = 0;
-        let name = show_code;
-
-        for (const player of vodplayer) {
-            if (player.from === show_code) {
-                is_show = 1;
-                need_parse = player.decode_status;
-                if (show_code.toLowerCase() !== player.show.toLowerCase()) {
-                    name = `${player.show} (${show_code})`;
-                }
-                break;
-            }
-        }
-
-        if (is_show === 1) {
-            let urls = [];
-            let items = urls_str.split('#');
-            for (let j = 0; j < items.length; j++) {
-                const item = items[j];
-                if (item.includes('$')) {
-                    let parts = item.split('$');
-                    let episode = parts[0];
-                    let m_url = parts[1];
-                    // 新格式：包含 vod_id 和剧集索引，用于播放时构造解析链接
-                    urls.push(`${episode}$${show_code}@${need_parse}@${data.vod_id}@${j}@${m_url}`);
-                }
-            }
-            if (urls.length > 0) {
-                play_urls.push(urls.join('#'));
-                shows.push(name);
-            }
-        }
+        list.push({
+            vod_id:m[1],
+            vod_name:m[2],
+            vod_pic:m[3]
+        })
     }
 
-    let video = {
-        'vod_id': data.vod_id.toString(),
-        'vod_name': data.vod_name,
-        'vod_pic': data.vod_pic,
-        'vod_remarks': data.vod_remarks,
-        'vod_year': data.vod_year,
-        'vod_area': data.vod_area,
-        'vod_actor': data.vod_actor,
-        'vod_director': data.vod_director,
-        'vod_content': data.vod_content,
-        'vod_play_from': shows.join('$$$'),
-        'vod_play_url': play_urls.join('$$$'),
-        'type_name': data.vod_class
-    };
-
-    return JSON.stringify({ list: [video] });
+    return JSON.stringify({list:list})
 }
 
-async function play(flag, id, flags) {
-    let parts = id.split('@');
-    let play_from, need_parse, raw_url, vod_id, index;
+/* 详情 */
+async function detail(id){
 
-    // 判断是新格式（至少5段）还是旧格式
-    if (parts.length >= 5) {
-        // 新格式： play_from@need_parse@vod_id@index@raw_url
-        play_from = parts[0];
-        need_parse = parts[1];
-        vod_id = parts[2];
-        index = parts[3];
-        raw_url = parts.slice(4).join('@');
-    } else {
-        // 旧格式兼容
-        play_from = parts[0];
-        need_parse = parts[1];
-        raw_url = parts[2];
-        vod_id = null;
-        index = null;
+    let html = await request(`${HOST}/vod/${id}.html`)
+
+    let title = html.match(/<h1.*?>(.*?)<\/h1>/)?.[1]||''
+
+    let pic = html.match(/class="lazy".*?data-src="(.*?)"/)?.[1]||''
+
+    let desc = html.match(/剧情简介[\s\S]*?<p>([\s\S]*?)<\/p>/)?.[1]||''
+
+    let play=[]
+
+    let reg=/href="\/play\/(\d+)"/g
+
+    let m
+
+    while((m=reg.exec(html))!=null){
+
+        play.push(`播放$${m[1]}`)
     }
 
-    let jx = 0;
-    let final_url = '';
+    let vod={
 
-    if (need_parse === '1') {
-        if (vod_id) {
-            // 新格式：返回站内播放页链接，由外部解析器处理
-            final_url = `${host}/play/${vod_id}#sid=${play_from}&nid=${index}`;
-            jx = 1;
-        } else {
-            // 旧格式：尝试原有解码接口（可能已失效，保留作为降级）
-            let auth_token = '';
-            for (let i = 0; i < 2; i++) {
-                try {
-                    let apiUrl = `${host}/api.php/decode/url/?url=${encodeURIComponent(raw_url)}&vodFrom=${play_from}${auth_token}`;
-                    let resp = await req(apiUrl, { headers: headers, timeout: 30000 });
-                    let json = JSON.parse(resp.content);
-                    if (json.code === 2 && json.challenge) {
-                        let token = eval(json.challenge);
-                        auth_token = `&token=${token}`;
-                        continue;
-                    }
-                    let play_url = json.data;
-                    if (play_url && play_url.startsWith('http')) {
-                        final_url = play_url;
-                        break;
-                    }
-                } catch (e) {
-                    console.error(e);
-                }
-            }
-            if (!final_url) {
-                final_url = raw_url;
-                if (/(?:www\.iqiyi|v\.qq|v\.youku|www\.mgtv|www\.bilibili)\.com/.test(raw_url)) {
-                    jx = 1;
-                }
-            }
-        }
-    } else {
-        final_url = raw_url;
-        if (/(?:www\.iqiyi|v\.qq|v\.youku|www\.mgtv|www\.bilibili)\.com/.test(raw_url)) {
-            jx = 1;
-        }
+        vod_id:id,
+
+        vod_name:title,
+
+        vod_pic:pic,
+
+        vod_content:desc,
+
+        vod_play_from:'3Q',
+
+        vod_play_url:play.join('#')
+    }
+
+    return JSON.stringify({list:[vod]})
+}
+
+/* 播放 */
+async function play(flag,id){
+
+    let html = await request(`${HOST}/play/${id}`)
+
+    let m3u8 = html.match(/(https?:\/\/.*?\.m3u8)/)
+
+    if(m3u8){
+
+        return JSON.stringify({
+            parse:0,
+            url:m3u8[1]
+        })
     }
 
     return JSON.stringify({
-        parse: jx,
-        url: final_url,
-        header: { 'User-Agent': headers['User-Agent'] }
-    });
+        parse:1,
+        url:`${HOST}/play/${id}`
+    })
 }
 
-export function __jsEvalReturn() {
-    return {
-        init: init,
-        home: home,
-        homeVod: homeVod,
-        category: category,
-        search: search,
-        detail: detail,
-        play: play
-    };
+export function __jsEvalReturn(){
+
+    return{
+        home:home,
+        category:category,
+        search:search,
+        detail:detail,
+        play:play
+    }
 }
