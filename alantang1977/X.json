@@ -182,8 +182,6 @@
 	
 ##饭太硬系列
 {"key":"YGP","name":"🚀叨观荐影┃预告片","type":3,"api":"csp_YGPGuard","searchable":0,"quickSearch":0,"changeable":0},
-{"key":"MTV1","name":"🎙️易听音乐┃带歌词","type":3,"api":"csp_MusicGuard","style":{"type":"rect","ratio":1},"playerType":2,"searchable":1,"quickSearch":0,"changeable":0},
-//{"key":"alllive","name":"🎮一直播┃直播","type":3,"api":"csp_AllliveGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":"uqGL1fpJNAUH7axYx5bf4OWuvyk="},
 {"key":"seed","name":"💡聚剧剧┃三盘","type":3,"api":"csp_SeedhubGuard","ext":"5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable":1,"quickSearch":1,"changeable":0, "indexs":0,"style":{"type":"list"}},
 {"key":"ZPan","name":"🎈聚盘搜┃三盘","type":3,"api":"csp_S_zpsGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":{"siteUrl":"http://38.55.131.86:82/"},"indexs":0,"style":{"type":"list"}},
 {"key":"云播","name":"⛅️云播┃无搜索","type":3,"api":"csp_T4Guard","searchable":1,"quickSearch":1,"changeable":0,"ext":"rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CKrShL75AiGhjhdkfX0cfnI/kIpThjDhEZ0lc8r7irE4mRMelQz4llfmVMCtjIFNIHP1T3XqwSmYZd34DfAtnkbgrpiMBiYW36CCI5rTkC3Rtg1wQQjazUZyVHx4Zz5bWbmPv4G8q7PfHWYStVeDannVT2lmLzKbGEDahyxvLhNZRjXO5rPlruB0ydDcR/e/g5nx8N3JhG0oucfv6xVDl0XxYy0K2bY3plgqx32kfnS63xa8sQDbGlYoPtdHQCi2cAvEOaqMb5a6r2D3yvcLXYLjk37CJgQObzK0bCggZPm3B3YenAuunxl5OQmXrzLHjys6I2isL5AwTS2YAjD/R3f4FYWBp+4RdwMBAChatxjEHcaFhCUb0nfTgYKQ4a1pZ4j6+d4YHa0GaMYHO5NZQ0tDRZfAZPcfYaWLSW8iIUx6G2e0JnI6bLAN1TR0AVer8lxfU0zAzAODbKVrt8Oafq0IQ6MeGFcFRGMu4QWrzaublQ=="},
@@ -286,7 +284,7 @@
 {"name": "🎭┃电视家「直播」","url": "https://down.nigx.cn/dsj.zzong6599.workers.dev","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36","Referer": "","cookie": ""},"epg": "https://iptv.crestekk.cn/epgphp/index.php"},
 {"name": "🪅┃kakaxi「直播」","url": "https://kakaxi.indevs.in/ipv4.txt"},
 {"name": "🐰┃kakaxi「直播ipv6」","type":0,"url":"https://kakaxi.indevs.in/ipv6.m3u","playerType":1},
-{"name": "📚┃jun自建「直播tv」","type":0,"url":"http://192.168.1.15:3000","playerType":1},
+//{"name": "📚┃jun自建「直播tv」","type":0,"url":"http://192.168.1.15:3000","playerType":1},
 {"name": "🍞️┃tangstudio「直播tv」","type": 0,"url": "https://tangstudio.dpdns.org/m3u/juntv.m3u","playerType":1},
 {"name": "🍞️┃tangstudio「直播judygotv」","type": 0,"url": "https://tangstudio.dpdns.org/m3u/jjtv.m3u","playerType":1},
 	
@@ -368,7 +366,7 @@
 {"name": "🚇┃淘IPTV「快秒直播」","type": 0,"url": "https://gitee.com/junchao321/private/raw/master/JS/直播接口测试.txt","playerType":1},
 //{"name": "🃏️┃台湾直播","api":"csp_MQiTV","ext":"https://59.125.210.231:4433","jar":"./jar/custom_spider.jar","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 //{"name": "🔦┃台湾直播","api":"csp_MQiTV","ext":"https://60.248.127.232:4433","jar":"./jar/custom_spider.jar","epg": "http://iptv.52sw.top:668/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},	
-
+{"name": "🔦┃综合「移动直播」","type": 0,"playerType": 2,"url": "https://ds65.tv1288.xyz","ua": "bingcha/1.1 (mianfeifenxiang) "},
 {"name": "🦁️┃集合「移动直播」","type": 0,"url": "https://gitee.com/zhanghuan12345/play/raw/master/jxyd","playerType":1},
 {"name": "🃏️┃集合「电信直播」","type": 0,"url": "https://gitee.com/zhanghuan12345/my-live/raw/master/jxdx","playerType":1},
 {"name": "🛡️️┃集合「央视直播」","type": 0,"url": "https://gitee.com/zhanghuan12345/my-live/raw/master/hubeiliantong","playerType":1},
