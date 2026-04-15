@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jpg;md5;596fe0f8b20d34e041cb3727b64ec13e","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
+"spider":"./jar/custom_spider.jpg;md5;aea4127857924d97c4ba44a4cdde4818","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
 "wallpaper":"https://bing.img.run/rand.php","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -17,6 +17,14 @@
 {"key": "哔哩影视","name": "🌈┃哔哩哔哩┃影视","type": 3,"api": "csp_BiliPGC","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"jar":"./jar/dongli-spider.jar","style": {"type": "rect","ratio": 1.597},"ext": {"json": "./json/blys.bmp","cookie": ""}},
 {"key": "MqTv","name": "☎️┃麻雀视频┃摸鱼","type": 3,"api": "csp_MqTv","searchable": 1,"ext": "https://www.mqtv.cc","jar":"./jar/摸鱼.php"},
 
+{"key":"BpanSo","name":"🐞盘他┃嘟嘟","type":3,"api":"csp_BpanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+{"key":"抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+{"key":"UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+//{"key":"YiSo","name":"😹易搜┃三盘","type":3,"api":"csp_YiSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","yiSoCookie":"satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"}},
+{"key":"米搜","name":"🦋米搜┃优夸","type":3,"api":"csp_MIPanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+{"key":"YpanSo","name":"🐟盘她┃夸父","type":3,"api":"csp_YpanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_PushGuard","searchable":0,"quickSearch":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
+	
 ##老张观影
 {"key": "legado_novel","name": "📚┃整合小说源┃老张","type": 3,"jar": "./jar/laozhang.jar","api": "csp_ProxySpider","ext": {"class": "LegadoSpider","ext": "./json/sources.json"},"style": {"type": "rect","ratio": 1.33}},
 {"key": "legado","name": "📚┃完本小说┃老张","type": 3,"jar": "./jar/laozhang.jar","api": "csp_ProxySpider","ext": {"class": "LegadoSpider","ext": "./json/sources1.json"},"style": {"type": "rect","ratio": 1.33}},
@@ -206,13 +214,6 @@
 {"key":"虎牙js","name":"🐯虎牙┃直播","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/main/虎牙.js","style":{"type":"rect","ratio":1.755},"timeout":10,"playerType":"2","searchable": 1,"quickSearch": 0,"changeable":0},
 {"key":"斗鱼js","name":"🐟斗鱼┃直播","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com//fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com//fantaiying7/EXT/refs/heads/main/斗鱼直播.js","style":{"type":"rect","ratio":1.755},"timeout":10,"playerType":"2","searchable": 1,"quickSearch": 0,"changeable":0},
 
-{"key":"抠搜","name":"🍄抠抠┃搜搜","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-{"key":"UC","name":"🌈优汐┃搜搜","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-//{"key":"YiSo","name":"😹易搜┃三盘","type":3,"api":"csp_YiSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","yiSoCookie":"satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"}},
-{"key":"米搜","name":"🦋米搜┃优夸","type":3,"api":"csp_MIPanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-{"key":"YpanSo","name":"🐟盘她┃夸父","type":3,"api":"csp_YpanSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_PushGuard","searchable":0,"quickSearch":0,"ext": {"Cloud-drive":"tvfan/Cloud-drive.txt"}},
-
 {"key":"Bili","name":"🅱哔哔合集┃弹幕","type": 3,"api": "csp_BiliGuard","style":{"type":"rect","ratio":1.597},"searchable":1,"quickSearch":0,"changeable":0,"ext":{"json":"https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"}},
 {"key":"Biliych","name":"🅱哔哔演唱会┃弹幕","type": 3,"api": "csp_BiliGuard","style":{"type":"rect","ratio":1.597},"searchable":0,"quickSearch":0,"changeable":0,"ext":{"json":"https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"}},
 {"key":"dr_兔小贝","name":"📚儿童┃启蒙","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com//fantaiying7/EXT/refs/heads/main/drpy2.min.js","ext":"https://gh-proxy.com/https://raw.githubusercontent.com//fantaiying7/EXT/refs/heads/main/%E5%85%94%E5%B0%8F%E8%B4%9D.js","style":{"type":"rect","ratio":1.597},"searchable": 0,"quickSearch": 0,"changeable":0},
@@ -244,6 +245,10 @@
 {"name": "🎉┃锋哥港台「直播」","type": 0,"url": "https://gh-proxy.org/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/港台大陆","playerType":1},	
 {"name": "🔫️┃锋哥xTV「直播」","type": 0,"url": "https://gh-proxy.org/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源","playerType":1},
 
+{"name": "🦄┃NSA自建「直播tv」","type":0,"url":"https://timetv.junchao.qzz.io","playerType":1},
+{"name": "🪲┃NSA自建「直播tv」","type":0,"url":"http://192.168.110.32:19890/trams.m3u?token=abc123","playerType":1},
+
+	
 ##酷九live直播
 {"name": "🔫️┃松鼠「直播」","type": 0,"ua": "okhttp","url": "https://d.kstore.dev/download/15114/iptv.txt"},
 {"name": "🔫️┃壹米「直播」","type": 0,"url": "https://gitee.com/yimi321/tv/raw/master/tv.png","ua": "okhttp/3.15,AptvPlayer/1.4.0","timeout": 5,"epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo": "https://live.fanmingming.cn/tv/{name}.png"},
