@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jpg;md5;aea4127857924d97c4ba44a4cdde4818","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
+"spider":"./jar/custom_spider.jpg;md5;66c8320a11411420db914bba8b77e34b","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
 "wallpaper":"https://bing.img.run/rand.php","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -7,7 +7,7 @@
 {"key": "玩偶","name": "🤹‍♂️┃玩偶哥哥┃饭硬","type": 3,"api": "csp_WoGGGuard","timeout": 30,"searchable": 1,"quickSearch": 1,"changeable": 0,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},
 {"key":"豆","name":"🎁┃豆瓣预告┃影视","type": 3, "api": "csp_DouDouGuard","indexs":1,"searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key": "guazi","name": "🥔┃瓜子影视┃秒播","type": 3,"api": "csp_Guazi","searchable": 1,"changeable": 1,"jar":"./jar/dongli-spider.jar","ext": {}},	
-{"key": "哔哩影视","name": "🌈┃哔哩哔哩┃影视","type": 3,"api": "csp_BiliPGC","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"jar":"./jar/dongli-spider.jar","style": {"type": "rect","ratio": 1.597},"ext": {"json": "./json/blys.bmp","cookie": ""}},
+{"key": "哔哩影视","name": "🌈┃哔哩哔哩┃影视","type": 3,"api": "csp_BiliPGC","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar","style": {"type": "rect","ratio": 1.597},"ext": {"json": "./json/blys.bmp","cookie": ""}},
 {"name":"☕┃韩剧影视┃秒播","key":"Hxq","type":3,"api":"csp_HxqAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"./jar/嗷嗚.png"},
 {"key": "Music24bit","name": "☕┃流行音乐┃无损","type": 3,"api": "csp_Music24bit","searchable": 1,"changeable": 1,"jar":"./jar/摸鱼.php","ext": {"categories": ["Cyberlume","周杰伦","汪苏泷","陈奕迅","张学友","薛之谦","林俊杰","李荣浩","王菲","邓紫棋","孙燕姿","刘德华","莫文蔚","陶喆","SHE","林忆莲","孙露","Taylor Swift","那英","i-dle","汪峰"]}},
 {"key": "fishhxq","name": "🎭┃韩小圈圈┃摸鱼","type": 3,"api": "csp_FishHxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php","jar":"./jar/摸鱼.php"},
@@ -109,8 +109,8 @@
 
 {"key": "MDrive","name": "🗂┃饭硬云盘┃配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},	
 {"key": "网盘","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar","style": {"type": "rect","ratio": 1.5}},
-{"key": "人人","name": "💗┃人人┃网盘","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;bef649c9ff45c1b74f1701032a79bf1b"},
-{"key": "商店","name": "🏬┃商店┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"style": {"type": "oval","ratio": 1.1},"ext": "./market/market.json","jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar;md5;bef649c9ff45c1b74f1701032a79bf1b"},
+{"key": "人人","name": "💗┃人人┃网盘","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar"},
+{"key": "商店","name": "🏬┃商店┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"style": {"type": "oval","ratio": 1.1},"ext": "./market/market.json","jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar"},
 {"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar"},
 	
 ##PY源系列
@@ -248,7 +248,6 @@
 {"name": "🦄┃NSA自建「直播tv」","type":0,"url":"https://timetv.junchao.qzz.io","playerType":1},
 {"name": "🪲┃NSA自建「直播tv」","type":0,"url":"http://192.168.110.32:19890/trams.m3u?token=abc123","playerType":1},
 
-	
 ##酷九live直播
 {"name": "🔫️┃松鼠「直播」","type": 0,"ua": "okhttp","url": "https://d.kstore.dev/download/15114/iptv.txt"},
 {"name": "🔫️┃壹米「直播」","type": 0,"url": "https://gitee.com/yimi321/tv/raw/master/tv.png","ua": "okhttp/3.15,AptvPlayer/1.4.0","timeout": 5,"epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo": "https://live.fanmingming.cn/tv/{name}.png"},
@@ -292,7 +291,7 @@
 {"name": "🎭┃电视家「直播」","url": "https://down.nigx.cn/dsj.zzong6599.workers.dev","header": {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36","Referer": "","cookie": ""},"epg": "https://iptv.crestekk.cn/epgphp/index.php"},
 {"name": "🪅┃kakaxi「直播」","url": "https://kakaxi.indevs.in/ipv4.txt"},
 {"name": "🐰┃kakaxi「直播ipv6」","type":0,"url":"https://kakaxi.indevs.in/ipv6.m3u","playerType":1},
-//{"name": "📚┃jun自建「直播tv」","type":0,"url":"http://192.168.1.15:3000","playerType":1},
+{"name": "📚┃jun自建「直播tv」","type":0,"url":"https://gh-proxy.org/https://raw.githubusercontent.com/alantang1977/cluntop/main/lib/iptv.m3u","playerType":1},
 {"name": "🍞️┃tangstudio「直播tv」","type": 0,"url": "https://tangstudio.dpdns.org/m3u/juntv.m3u","playerType":1},
 {"name": "🍞️┃tangstudio「直播judygotv」","type": 0,"url": "https://tangstudio.dpdns.org/m3u/jjtv.m3u","playerType":1},
 	
@@ -339,9 +338,9 @@
 
 {"name": "🚤️️┃Wirili「直播」","url": "https://gh-proxy.org/https://raw.githubusercontent.com/Wirili/IPTV/main/live.txt","header": {"User-Agent": ""}},
 {"name": "🥋┃中国IPTV直播","type":0,"url":"https://gh-proxy.org/https://raw.githubusercontent.com/mytv-android/myMIGU/refs/heads/main/migu.m3u","playerType":1},
-{"name": "📷┃Gather「直播」","url": "https://tv.iill.top/m3u/Gather","header": {"User-Agent": ""}},
-{"name": "📸┃MyTV「直播」","url": "https://tv.iill.top/m3u/MyTV","header": {"User-Agent": ""}},
-{"name": "🏰️️┃网络「直播show」","type": 0,"url": "https://itv.aptv.app/china-iptv/zgyd.m","playerType":1},
+{"name": "📷┃Gather「直播」","url": "https://tv.iill.top/m3u/Gather","header": {"User-Agent": "Goiptv/8.8.8"}},
+{"name": "📸┃MyTV「直播」","url": "https://tv.iill.top/m3u/MyTV","header": {"User-Agent": "Goiptv/8.8.8"}},
+//{"name": "🏰️️┃网络「直播show」","type": 0,"url": "https://itv.aptv.app/china-iptv/zgyd.m","playerType":1},
 {"name": "🍏️┃范明明「直播V6」","type":0,"url":"https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType":2},
 	
 ##自家系列直播
