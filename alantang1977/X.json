@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jpg;md5;66c8320a11411420db914bba8b77e34b","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
+"spider":"https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260417/TTvr/fish04171910.php;md5;b08ad62111cd2162beb817623ec3bedd","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
 "wallpaper":"https://bing.img.run/rand.php","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites":[
@@ -108,10 +108,10 @@
 {"key": "Wexlaobaitingshu","name": "🐇┃白兔┃听书","type": 3,"api": "csp_WexlaobaitingshuGuard","ext": "","jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4C1FF0E_773_wex_20251125202938981newMediaImage.png;md5;905b506670b52fb2a680743fb13086fc","searchable": 1,"quickSearch": 1,"filterable": 1},	
 
 {"key": "MDrive","name": "🗂┃饭硬云盘┃配置","type": 3,"api": "csp_MyDriveGuard","changeable": 0,"indexs": 0,"searchable": 1,"style": {"type": "oval"},"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt"}},	
-{"key": "网盘","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar","style": {"type": "rect","ratio": 1.5}},
+//{"key": "网盘","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar","style": {"type": "rect","ratio": 1.5}},
 {"key": "人人","name": "💗┃人人┃网盘","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar"},
 {"key": "商店","name": "🏬┃商店┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"style": {"type": "oval","ratio": 1.1},"ext": "./market/market.json","jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar"},
-{"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar"},
+//{"key":"Wogg","name":"🎩┃PG┃玩偶哥哥","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$http://wogg.888484.xyz/$$$noproxy$$$1$$$./lib/wogg.json$$$WOGG","jar":"./pg.jar"},
 	
 ##PY源系列
 {"key": "瓜子py","name": "🕯️┃瓜子py┃影视","type": 3,"api": "./py/瓜子.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
