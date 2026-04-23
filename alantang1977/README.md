@@ -195,9 +195,7 @@ Demo🔗 https://live.fanmingming.cn/player/?vurl=https://0472.org/hls/cgtn.m3u8
 
 ![photo_2023-06-05_12-52-28](https://github.com/alantang1977/X/assets/107459091/a5062706-a6e9-4041-a9bf-5800f64efcad)
 ------
-免费在线gif制作
 
-https://www.tutieshi.com/
 ----
 
 # 🍓Github在线加速镜像 
