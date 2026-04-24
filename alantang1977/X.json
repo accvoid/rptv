@@ -23,6 +23,16 @@
     {"key": "袋鼠影视(JS)","name": "🪲┃袋鼠┃影视","type": 3,"api": "./js/袋鼠影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "永乐影视(JS)","name": "🪲┃永乐┃影视","type": 3,"api": "./js/永乐影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "247看(JS)","name": "🪲┃247看┃影视","type": 3,"api": "./js/247看.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
+	{
+            "key": "达达龟影院[剧](PY)",
+            "name": "🦆达达龟影院[剧](PY)",
+            "type": 3,
+            "api": "./py/达达龟影院.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
     {"name":"☕┃新韩剧网┃秒播","key":"Hxq","type":3,"api":"csp_HxqAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"./jar/嗷嗚.png"},
     {"key": "fishhxq","name": "🎭┃韩小圈圈┃摸鱼","type": 3,"api": "csp_FishHxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php","jar":"./jar/摸鱼.php"},
     {"key": "Symx","name": "🎉┃山有木兮┃摸鱼","type": 3,"api": "csp_Symx","ext": "https://film.symx.club","jar":"./jar/摸鱼.php"},
