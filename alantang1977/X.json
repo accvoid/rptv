@@ -16,14 +16,17 @@
 
     {"key":"配置中心","name":"👨‍🍳┃‍配置┃中心","type":3,"api":"csp_AweSomeGuard","searchable":0,"changeable":0,"indexs":0,"style":{"type":"rect","ratio":1.43}, "ext": {"sp": "Config"}},
     //{"key": "网盘","name": "🐧┃PG网盘┃配置","type": 3,"api": "csp_Config","searchable": 0,"changeable": 0,"ext":"./lib/tokenm.json","jar":"./pg.jar","style": {"type": "rect","ratio": 1.5}},
-
     {"key":"剧透","name": "🥷┃剧透社┃影视","type": 3,"api": "./py/剧透社.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
     {"key":"剧透ai","name": "🦸┃剧透社┃影视","type": 3,"api": "./py/剧透社ai.py","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0},
     {"key": "人人","name": "💗┃人人┃网盘","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 1,"changeable": 0,"jar":"https://gh-proxy.org/https://raw.githubusercontent.com/chitue/dongliTV/refs/heads/main/jar/dongli-spider.jar"},
-    {"key": "袋鼠影视(JS)","name": "🪲┃袋鼠┃影视","type": 3,"api": "./js/袋鼠影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
+    
+	{"key": "袋鼠影视(JS)","name": "🪲┃袋鼠┃影视","type": 3,"api": "./js/袋鼠影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "永乐影视(JS)","name": "🪲┃永乐┃影视","type": 3,"api": "./js/永乐影视.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
     {"key": "247看(JS)","name": "🪲┃247看┃影视","type": 3,"api": "./js/247看.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
 	{"key": "达达龟","name": "🪲┃达达龟┃影视","type": 3,"api": "./js/达达龟影院.py","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
+	{"key": "华视影院","name": "🪲┃华视┃影院","type": 4,"api": "http://zhangqun1818.serv00.net:5052/?sp=华视影院","searchable": 1,"quickSearch": 1,"filterable": 1},
+
+	  
     {"name":"☕┃新韩剧网┃秒播","key":"Hxq","type":3,"api":"csp_HxqAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"./jar/嗷嗚.png"},
     {"key": "fishhxq","name": "🎭┃韩小圈圈┃摸鱼","type": 3,"api": "csp_FishHxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php","jar":"./jar/摸鱼.php"},
     {"key": "Symx","name": "🎉┃山有木兮┃摸鱼","type": 3,"api": "csp_Symx","ext": "https://film.symx.club","jar":"./jar/摸鱼.php"},
