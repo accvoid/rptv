@@ -2114,8 +2114,18 @@
             "changeable": 0
         },
         {
+            "key": "达达龟影院",
+            "name": "🏜️┃达达龟影院",
+            "type": 3,
+            "api": "./py/达达龟影院.py",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
             "key": "采集合集",
-            "name": "🏜️┃采集合集",
+            "name": "🏝️┃采集合集",
             "type": 3,
             "api": "./py/采集合集.py",
             "searchable": 1,
@@ -2125,7 +2135,7 @@
         },
         {
             "key": "金牌",
-            "name": "🏝️┃金牌",
+            "name": "🏖️┃金牌",
             "type": 3,
             "api": "./py/金牌.py",
             "searchable": 1,
@@ -2135,7 +2145,7 @@
         },
         {
             "key": "金牌域名",
-            "name": "🏖️┃金牌域名",
+            "name": "🏟️┃金牌域名",
             "type": 3,
             "api": "./py/金牌域名.py",
             "searchable": 1,
@@ -2145,7 +2155,7 @@
         },
         {
             "key": "锦鲤短剧",
-            "name": "🏟️┃锦鲤短剧",
+            "name": "🏛️┃锦鲤短剧",
             "type": 3,
             "api": "./py/锦鲤短剧.py",
             "searchable": 1,
@@ -2155,7 +2165,7 @@
         },
         {
             "key": "随机小姐姐",
-            "name": "🏛️┃随机小姐姐",
+            "name": "🏗️┃随机小姐姐",
             "type": 3,
             "api": "./py/随机小姐姐.py",
             "searchable": 1,
@@ -2165,7 +2175,7 @@
         },
         {
             "key": "零度影视",
-            "name": "🏗️┃零度影视",
+            "name": "😡┃零度影视",
             "type": 3,
             "api": "./py/零度影视.py",
             "searchable": 1,
@@ -2175,7 +2185,7 @@
         },
         {
             "key": "非凡资源.min",
-            "name": "😡┃非凡资源.min",
+            "name": "😈┃非凡资源.min",
             "type": 3,
             "api": "./py/非凡资源.min.py",
             "searchable": 1,
@@ -2185,7 +2195,7 @@
         },
         {
             "key": "韩剧看看",
-            "name": "😈┃韩剧看看",
+            "name": "👿┃韩剧看看",
             "type": 3,
             "api": "./py/韩剧看看.py",
             "searchable": 1,
@@ -2195,7 +2205,7 @@
         },
         {
             "key": "韩国色情电影",
-            "name": "👿┃韩国色情电影",
+            "name": "👹┃韩国色情电影",
             "type": 3,
             "api": "./py/韩国色情电影.py",
             "searchable": 1,
@@ -2205,7 +2215,7 @@
         },
         {
             "key": "飞快",
-            "name": "👹┃飞快",
+            "name": "👺┃飞快",
             "type": 3,
             "api": "./py/飞快.py",
             "searchable": 1,
@@ -2215,7 +2225,7 @@
         },
         {
             "key": "飞快TV",
-            "name": "👺┃飞快TV",
+            "name": "💀┃飞快TV",
             "type": 3,
             "api": "./py/飞快TV.py",
             "searchable": 1,
@@ -2225,7 +2235,7 @@
         },
         {
             "key": "飞快TV[推]",
-            "name": "💀┃飞快TV[推]",
+            "name": "☠️┃飞快TV[推]",
             "type": 3,
             "api": "./py/飞快TV[推].py",
             "searchable": 1,
@@ -2235,7 +2245,7 @@
         },
         {
             "key": "飞快_pan",
-            "name": "☠️┃飞快_pan",
+            "name": "👻┃飞快_pan",
             "type": 3,
             "api": "./py/飞快_pan.py",
             "searchable": 1,
@@ -2245,7 +2255,7 @@
         },
         {
             "key": "饭团影视",
-            "name": "👻┃饭团影视",
+            "name": "👽┃饭团影视",
             "type": 3,
             "api": "./py/饭团影视.py",
             "searchable": 1,
@@ -2255,7 +2265,7 @@
         },
         {
             "key": "香蕉",
-            "name": "👽┃香蕉",
+            "name": "👾┃香蕉",
             "type": 3,
             "api": "./py/香蕉.py",
             "searchable": 1,
@@ -2265,7 +2275,7 @@
         },
         {
             "key": "香蕉视频",
-            "name": "👾┃香蕉视频",
+            "name": "🤖┃香蕉视频",
             "type": 3,
             "api": "./py/香蕉视频.py",
             "searchable": 1,
@@ -2275,7 +2285,7 @@
         },
         {
             "key": "骚火影视",
-            "name": "🤖┃骚火影视",
+            "name": "👀┃骚火影视",
             "type": 3,
             "api": "./py/骚火影视.py",
             "searchable": 1,
@@ -2285,7 +2295,7 @@
         },
         {
             "key": "骚火电影",
-            "name": "👀┃骚火电影",
+            "name": "👁️┃骚火电影",
             "type": 3,
             "api": "./py/骚火电影.py",
             "searchable": 1,
@@ -2295,7 +2305,7 @@
         },
         {
             "key": "高清电影",
-            "name": "👁️┃高清电影",
+            "name": "👅┃高清电影",
             "type": 3,
             "api": "./py/高清电影.py",
             "searchable": 1,
@@ -2305,7 +2315,7 @@
         },
         {
             "key": "麦田",
-            "name": "👅┃麦田",
+            "name": "👄┃麦田",
             "type": 3,
             "api": "./py/麦田.py",
             "searchable": 1,
@@ -2315,7 +2325,7 @@
         },
         {
             "key": "麦田影院",
-            "name": "👄┃麦田影院",
+            "name": "🧑┃麦田影院",
             "type": 3,
             "api": "./py/麦田影院.py",
             "searchable": 1,
@@ -2325,7 +2335,7 @@
         },
         {
             "key": "黄色仓库",
-            "name": "🧑┃黄色仓库",
+            "name": "👦┃黄色仓库",
             "type": 3,
             "api": "./py/黄色仓库.py",
             "searchable": 1,
@@ -2335,7 +2345,7 @@
         },
         {
             "key": "黑料",
-            "name": "👦┃黑料",
+            "name": "👧┃黑料",
             "type": 3,
             "api": "./py/黑料.py",
             "searchable": 1,
@@ -2345,7 +2355,7 @@
         },
         {
             "key": "黑料不打样",
-            "name": "👧┃黑料不打样",
+            "name": "👨┃黑料不打样",
             "type": 3,
             "api": "./py/黑料不打样.py",
             "searchable": 1,
@@ -2355,7 +2365,7 @@
         },
         {
             "key": "黑料弹幕版",
-            "name": "👨┃黑料弹幕版",
+            "name": "👩┃黑料弹幕版",
             "type": 3,
             "api": "./py/黑料弹幕版.py",
             "searchable": 1,
