@@ -1,5 +1,5 @@
 {
-"spider":"./jar/ok.jar;md5;127ea82cb8bf8a82f0cf64da66e39b60","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
+"spider":"./jar/oktang.jar;md5;568546f5a864cbd732cf91a22c8a1b15","notice": "Welcome🎉", 
 "wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
   "sites": [
@@ -162,14 +162,14 @@
 {"name": "🥷┃mitv「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.tangtang.us.ci/123456"},
 {"name": "🥷┃广东gdty「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.alantangtang.de5.net/123456"},
 {"name": "🥷┃央视卫视zubo「cloudflare」","type": 0,"ua": "okhttp","url": "http://tv.tangtang.ggff.net"},
-{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:50085/sub?hr8FqbMm=m3u"},
-{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:8080/tv?token=bd9344bf40238521"},
-{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:19890/trams.m3u?token=abc123"},
-{"name": "🥷┃migu_video「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:1977"},
-{"name": "🥷┃zhbo「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:5020/zubo.txt"},
-{"name": "🥷┃iptv「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:1905"},
-{"name": "🥷┃iptv_api「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:81"},
-{"name": "🥷┃smart「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.32:5050"},
+{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:50085/sub?hr8FqbMm=m3u"},
+{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:8080/tv?token=bd9344bf40238521"},
+{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:19890/trams.m3u?token=abc123"},
+{"name": "🥷┃migu_video「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:1977"},
+{"name": "🥷┃zhbo「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:5020/zubo.txt"},
+{"name": "🥷┃iptv「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:1905"},
+{"name": "🥷┃iptv_api「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:81"},
+{"name": "🥷┃smart「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:5050"},
 
 ##酷九live直播
 {"name": "🔫️┃松鼠「直播」","type": 0,"ua": "okhttp","url": "https://d.kstore.dev/download/15114/iptv.txt"},
@@ -189,7 +189,7 @@
 {"name": "🐻┃Gather「IPTV」","type": 3,"url": "https://iptv.yang-1989.eu.org/m3u/Gather.m3u","epg":"https://epg.yang-1989.eu.org/epg.xml.gz","ua": "okhttp/3.8.1","timeout": 10,"playerType": 2},
 //{"name": "🐻┃Live「直播」","type": 3,"url": "https://live.yang-1989.eu.org/Live.m3u","ua": "okhttp/3.8.1","timeout": 10,"playerType": 2},
 //{"name": "🐻┃myTV「香港」","type": 3,"url": "https://iptv.yang-1989.eu.org/m3u/myTV.m3u","epg":"https://epg.yang-1989.eu.org/epg.xml.gz","ua": "okhttp/3.8.1","playerType": 2},
-//{"name": "🐍┃港🇭🇰澳「直播」","type": 0,"ua": "okhttp","url": "http://ke.html-5.me//i/85261.txt"},
+{"name": "🐍┃港🇭🇰澳「直播」","type": 0,"ua": "okhttp","url": "http://tvv.tw/github.com/fafa002/yf2025/blob/main/yiyifafa.txt"},
 {"name": "🐍┃hs2026「直播」","type": 0,"ua": "okhttp","url": "https://gitee.com/hs2026/tv/raw/master/2026.txt"},
 {"name": "🐍┃player「直播」","type": 0,"ua": "okhttp","url": "https://mpimg.cn/down.php/8f4d44220555d8090879cb45224b861e.txt"},
 {"name": "🐍┃OscarWilde「直播」","type": 0,"ua": "okhttp","url": "https://gitee.com/OscarWilde/itv/raw/master/tv.txt"},
