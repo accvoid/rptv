@@ -25,15 +25,12 @@
     {"key": "247看(JS)","name": "🪲┃247看┃影视","type": 3,"api": "./js/247看.js","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
 	{"key": "达达龟","name": "🪲┃达达龟┃影视","type": 3,"api": "./js/达达龟影院.py","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
 	{"key": "华视影院","name": "🪲┃华视┃影院","type": 4,"api": "http://zhangqun1818.serv00.net:5052/?sp=华视影院","searchable": 1,"quickSearch": 1,"filterable": 1},
+	{"key": "枫叶","name": "🪲┃枫叶┃影视","type": 3,"api": "./py/枫叶影院.py","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},
+	//{"key": "4KVM","name": "🪲┃4KVM┃影视","type": 3,"api": "./laozhang/4KVM.py","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1,"jar":"./jar/laozhang.jar","ext": {}},	
+	//{"key": "8KVM","name": "🪲┃8KVM┃影视","type": 3,"api": "./py/4KVM.py","searchable": 1,"quickSearch": 1,"filterable": 1,"switchable": 1},	
 
-	  
-    {"name":"☕┃新韩剧网┃秒播","key":"Hxq","type":3,"api":"csp_HxqAmns","searchable":1,"filterable":1,"quickSearch":1,"changeable":1,"jar":"./jar/嗷嗚.png"},
-    {"key": "fishhxq","name": "🎭┃韩小圈圈┃摸鱼","type": 3,"api": "csp_FishHxq","ext": "https://fishapi.wya6.com/fish/fishhxq.php","jar":"./jar/摸鱼.php"},
-    {"key": "Symx","name": "🎉┃山有木兮┃摸鱼","type": 3,"api": "csp_Symx","ext": "https://film.symx.club","jar":"./jar/摸鱼.php"},
-    {"key": "RenRen","name": "⛵┃人人影视┃摸鱼","type": 3,"api": "csp_RenRen","searchable": 1,"quickSearch": 1,"filterable": 0,"jar":"./jar/摸鱼.php"},
     {"key": "guazi","name": "🥔┃瓜子影视┃秒播","type": 3,"api": "csp_Guazi","searchable": 1,"changeable": 1,"jar":"./jar/dongli-spider.jar","ext": {}},	
     {"key": "哔哩影视","name": "🌈┃哔哩哔哩┃影视","type": 3,"api": "csp_BiliPGC","searchable": 1,"quickSearch": 0,"filterable": 0,"changeable": 0,"jar":"./jar/dongli-spider.jar","style": {"type": "rect","ratio": 1.597},"ext": {"json": "./json/blys.bmp","cookie": ""}},
-    {"key": "MqTv","name": "☎️┃麻雀视频┃摸鱼","type": 3,"api": "csp_MqTv","searchable": 1,"ext": "https://www.mqtv.cc","jar":"./jar/摸鱼.php"},
     {"key": "独播库","name": "☎️┃独播库┃影视","type": 3,"api": "./js/独播库.js","style": {"type": "rect","ratio": 1.33},"changeable": 1},
     {"key": "电影港","name": "🚑┃电影港磁力","type": 3,"api": "csp_XYQHiker","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/电影港.json","jar":"./jar/yt.jar"},
   

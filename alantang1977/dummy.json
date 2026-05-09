@@ -122,17 +122,20 @@
 {"name": "🏄‍♂️┃serv00「直播」","type": 0,"ua": "okhttp","url": "https://alantang.serv00.net/m3u/jtv.m3u"},
 {"name": "🐍┃tangtang「直播」","type": 0,"ua": "okhttp","url": "https://tangtang.ggff.net/m3u/jtv.m3u"},
 {"name": "🥷┃JunTV「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.tangtang.us.ci/abc123"},
+{"name": "🥷┃合集TV「cloudflare」","type": 0,"ua": "okhttp","url": "https://abc.tangtang.us.ci/abc123"},
 {"name": "🥷┃mitv「cloudflare」","type": 0,"ua": "okhttp","url": "https://txt.tanglitv.de5.net/abc123"},
 {"name": "🥷┃广东gdty「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.alantangtang.de5.net/abc123"},
 {"name": "🥷┃央视卫视zubo「cloudflare」","type": 0,"ua": "okhttp","url": "http://tv.tangtang.ggff.net"},
-{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:50085/sub?hr8FqbMm=m3u"},
-{"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:8080/tv?token=bd9344bf40238521"},
+{"name": "🥷┃iptv-spider「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:50085/sub?hr8FqbMm=m3u"},
+{"name": "🥷┃spider「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:8080/tv?token=bd9344bf40238521"},
 {"name": "🥷┃trams「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:19890/trams.m3u?token=abc123"},
 {"name": "🥷┃migu_video「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:1977"},
 {"name": "🥷┃zhbo「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:5020/zubo.txt"},
 {"name": "🥷┃iptv「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:1905"},
 {"name": "🥷┃iptv_api「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:81"},
 {"name": "🥷┃smart「NAS」","type": 0,"ua": "okhttp","url": "http://192.168.110.31:5050"},
+
+	  
 ##酷九live直播
 {"name": "🔫️┃松鼠「直播」","type": 0,"ua": "okhttp","url": "https://d.kstore.dev/download/15114/iptv.txt"},
 {"name": "🔫️┃壹米「直播」","type": 0,"url": "https://gitee.com/yimi321/tv/raw/master/tv.png","ua": "okhttp/3.15,AptvPlayer/1.4.0","timeout": 5,"epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}","logo": "https://live.fanmingming.cn/tv/{name}.png"},
