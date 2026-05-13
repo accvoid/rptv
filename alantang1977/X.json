@@ -1,6 +1,6 @@
 {
 "spider":"./jar/dummy.txt;md5;faab56b39d8e181e5ce343d6775137e5","notice": "🧨马到成功！万事胜意！财源广进🧨🎉！", 
-"wallpaper":"https://imgs.catvod.com/","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
+"wallpaper":"https://imgs.catvod.com","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites": [
 //{"key":"NewDouBan","name":"🐮【公众号：王二小放牛娃】🐮","type":3,"api":"csp_NewDouBanGuard","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cdn.waimaimingtang.com/file/images/bwc/20260414181247-ae51abfbfe.txt"},
@@ -128,7 +128,7 @@
 {"name": "🏄‍♂️┃serv00「直播」","type": 0,"ua": "okhttp","url": "https://alantang.serv00.net/m3u/jtv.m3u"},
 {"name": "🐍┃tangtang「直播」","type": 0,"ua": "okhttp","url": "https://tangtang.ggff.net/m3u/jtv.m3u"},
 {"name": "🥷┃JunTV「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.tangtang.us.ci/abc123"},
-{"name": "🥷┃合集TV「cloudflare」","type": 0,"ua": "okhttp","url": "https://abc.tangtang.us.ci/bbc456"},
+{"name": "🥷┃合集TV「cloudflare」","type": 0,"ua": "okhttp","url": "https://abc.tangtang.us.ci/tang1314"},
 {"name": "🥷┃mitv「cloudflare」","type": 0,"ua": "okhttp","url": "https://txt.tanglitv.de5.net/abc123"},
 {"name": "🥷┃广东gdty「cloudflare」","type": 0,"ua": "okhttp","url": "https://tv.alantangtang.de5.net/abc123"},
 {"name": "🥷┃央视卫视zubo「cloudflare」","type": 0,"ua": "okhttp","url": "http://tv.tangtang.ggff.net"},
