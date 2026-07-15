@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/alantang1977/X/main/Pictures/3D.png" alt="logo"/>
+  <img src="https://raw.githubusercontent.com/alantang1977/X/main/Pictures/jun.jpg" alt="logo"/>
   <h1 align="center">影视点播直播源</h1>
 </div>
 
@@ -53,6 +53,8 @@ UC盘: https://drive.uc.cn/s/e7b5fd4698704
 https://tools.v1.mk
 
 http://www.饭太硬.cc/tv
+
+http://摸鱼儿.cc
 
 https://9280.kstore.vip/newwex.json 王二小放牛娃
 
