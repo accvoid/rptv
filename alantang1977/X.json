@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jar;md5;dd8f442e52e1a2136d435707d3d743c9", 
+"spider":"./jar/custom_spider.jar;md5;7e3ad194f8f1898506604a0972223c3b", 
 "wallpaper":"https://imgs.catvod.com","logo":"https://cnb.cool/junchao.tang/jtv/-/git/raw/main/Pictures/junmeng.gif",
 
 "sites": [
@@ -87,7 +87,8 @@
 {"name": "📱┃飞扬咪咕「直播」","type": 0,"url": "https://l.gmbbk.com/upload/39183918.txt","playerType":1},
 {"name": "🚣🏻┃全国地区「直播」","type": 0,"url": "https://iboxfree.neocities.org/555.txt","playerType":1},
 {"name": "🐬┃综合「直播」","type": 0,"playerType": 2,"url": "https://ds65.tv1288.xyz","ua": "bingcha/1.1 (mianfeifenxiang) "},
-{"name": "🛳️️┃裤佬「仅移动网」","type": 0,"url": "https://codeberg.org/Jsnzkpg/Jsnzkpg/raw/Jsnzkpg/Jsnzkpg1.m3u","ua": "okHttp","timeout": 10,"playerType": 2},
+{"name": "🛳️️┃裤佬「仅移动网」","type":0,"url":"https://live.445569.xyz/live.m3u","ua":"okHttp","timeout":10,"playerType":2},
+{"name": "🍅┃全国直播「live」","type":0,"url":"http://wangziduoqing.com/yuan/zb.txt","ua":"okHttp","timeout":10,"playerType":2},
 
 ##NAS部署直播
 {"name": "🏄‍♂️┃serv00「直播」","type": 0,"ua": "okhttp","url": "https://alantang.serv00.net/m3u/jtv.m3u"},
