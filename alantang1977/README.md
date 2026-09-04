@@ -50,6 +50,8 @@ UC盘: https://drive.uc.cn/s/e7b5fd4698704
 
 ## 🚁解密链接：https://www.xn--sss604efuw.com/jm/
 
+https://bjq.catvod.site
+
 https://tools.v1.mk
 
 http://www.饭太硬.cc/tv
